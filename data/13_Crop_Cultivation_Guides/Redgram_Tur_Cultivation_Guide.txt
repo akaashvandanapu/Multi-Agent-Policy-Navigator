@@ -1,0 +1,483 @@
+REDGRAM/TUR/ARHAR (PIGEON PEA) CULTIVATION GUIDE - ANDHRA PRADESH
+==================================================================
+
+NOTE: For official publications, contact:
+- ICAR-Indian Institute of Pulses Research, Kanpur  
+- ICRISAT, Hyderabad
+- Regional Agricultural Research Stations, AP
+
+BASIC INFORMATION:
+-----------------
+Redgram is a major pulse crop, often intercropped with cotton, grown mainly in rainfed areas.
+Area: 2-3 lakh hectares | Average Yield: 12-18 quintals/ha
+
+MAJOR DISTRICTS: Kurnool, Anantapur, Prakasam, Kadapa, Mahabubnagar
+
+IMPORTANCE:
+- Protein-rich dal (20-22% protein)
+- Nitrogen fixation (25-40 kg N/ha - enriches soil)
+- Drought-tolerant (deep taproot - 2 meters)
+- Fixes atmospheric nitrogen (reduces fertilizer need)
+
+CROP SEASONS:
+------------
+KHARIF (Main Season):
+- Sowing: June-July (with onset of monsoon)
+- Harvesting: December-March (150-200 days depending on duration)
+- Single harvest or 3-4 pickings
+
+DURATION TYPES:
+--------------
+SHORT DURATION (120-140 days):
+- ICPL 88039 (Asha): 120-130 days, 15-18 q/ha
+- Suitable for: Late sowing, sequential cropping
+
+MEDIUM DURATION (150-170 days):
+- ICPL 87119 (Asha): 150-160 days, 18-20 q/ha
+- PRG 158: 155-165 days, 18-22 q/ha
+- Suitable for: Sole crop, intercropping
+
+LONG DURATION (180-200 days):
+- LRG 41: 180-185 days, 18-22 q/ha, SMD tolerant
+- WRG 158: 190-200 days, 20-24 q/ha, wilt tolerant
+- Suitable for: Deep black soils, pure crop
+
+SOIL REQUIREMENTS:
+-----------------
+Best: Black cotton soils (Vertisols), red soils
+pH: 6.5-7.5 (slightly acidic to neutral)
+Depth: Deep soils (>75 cm) - has deep taproot
+Drainage: Good drainage essential (sensitive to waterlogging)
+Avoid: Highly acidic, saline, waterlogged soils
+
+LAND PREPARATION:
+----------------
+1. One deep ploughing in summer (May)
+2. 1-2 harrowing after first rain
+3. Broad Bed and Furrow (BBF) system recommended
+   - Beds: 150 cm wide, 15 cm high
+   - Furrows: 30 cm wide (for drainage)
+4. Opening of furrows for drainage
+
+Note: Minimum tillage is okay (redgram is hardy)
+
+SEED REQUIREMENTS:
+-----------------
+Sole Crop:
+- Long duration: 15-18 kg/ha (6-7 kg/acre)
+- Medium duration: 18-20 kg/ha (7-8 kg/acre)
+- Short duration: 20-22 kg/ha (8-9 kg/acre)
+
+Intercrop (with cotton/sorghum): 8-10 kg/ha
+
+Use bold, healthy, disease-free seeds
+
+SEED TREATMENT (Mandatory):
+--------------------------
+1. Fungicide: Thiram or Carbendazim @ 2 gm/kg seed
+2. Rhizobium culture @ 25 gm/kg seed (N fixation)
+3. PSB (Phosphate Solubilizing Bacteria) @ 25 gm/kg
+4. Trichoderma viride @ 10 gm/kg (wilt prevention)
+
+Seed treatment is CRITICAL for:
+  - Disease prevention (wilt, sterility mosaic)
+  - Nitrogen fixation (Rhizobium)
+  - Nutrient availability (PSB)
+
+SOWING:
+------
+Method: Dibbling or seed drill
+Depth: 4-5 cm
+Spacing:
+
+SOLE CROP:
+- Long duration: 150 cm x 75 cm or 120 cm x 90 cm
+- Medium duration: 90 cm x 60 cm or 120 cm x 75 cm
+- Short duration: 75 cm x 30 cm or 60 cm x 30 cm
+
+INTERCROPPING WITH COTTON:
+- Cotton + Redgram: 2:1 or 3:1 ratio
+- Example: 2 rows cotton (90 cm apart) : 1 row redgram
+
+INTERCROPPING WITH SORGHUM:
+- Sorghum + Redgram: 2:2 or 3:3 ratio
+
+Seeds per hill: 2-3 (thin to 1-2 plants later)
+Thinning: 20-25 days after sowing
+
+IRRIGATION:
+----------
+Redgram is mostly rainfed but responds well to irrigation.
+
+Critical Stages (if irrigation available):
+1. Flowering stage (75-90 DAS)
+2. Pod development (100-120 DAS)
+
+Rainfed: Can tolerate drought due to deep taproot
+Irrigated: 2-3 protective irrigations increase yield by 30-40%
+
+Avoid waterlogging at all costs (fatal for redgram)
+
+FERTILIZER MANAGEMENT:
+---------------------
+NPK: 20-25:50:25 kg/ha
+(Note: Low N as it's a legume - fixes own nitrogen)
+
+FERTILIZER EQUIVALENT:
+- Urea: 43-54 kg/ha (or SKIP if good Rhizobium inoculation)
+- SSP: 313 kg/ha (provides P + S + Ca)
+- MOP: 42 kg/ha
+
+APPLICATION:
+ALL AT SOWING (Basal):
+- Full N + P + K
+- FYM: 5-7 tonnes/ha (if available)
+- Gypsum: 125 kg/ha (provides S + Ca)
+
+NO TOP DRESSING needed (one-time application)
+
+SPECIAL NOTES:
+- Phosphorus is most critical for nodulation
+- Sulphur (20 kg/ha) improves yield - apply as Gypsum
+- Boron deficiency common - apply 5 kg Borax/ha
+- Avoid excess nitrogen (causes vegetative growth, delays flowering)
+
+WEED MANAGEMENT:
+---------------
+Critical Period: First 45-60 days
+
+Cultural:
+- Hand weeding at 25 and 45 DAS
+- Inter-cultivation at 30 DAS (also helps in aeration)
+- Mulching reduces weed pressure
+
+Chemical:
+Pre-emergence (within 2-3 days):
+  - Pendimethalin 30 EC @ 3.3 liters/ha
+  - Apply as spray in 500 liters water
+
+Post-emergence (20 DAS):
+  - Imazethapyr 10 SL @ 1 liter/ha (pulse-specific herbicide)
+  - Apply as directed spray
+
+In Intercropping:
+- Be careful with herbicides (may damage companion crop)
+- Hand weeding safer option
+
+PEST MANAGEMENT:
+---------------
+Major Pests:
+
+1. POD BORER COMPLEX (Most serious pest):
+
+A. Helicoverpa armigera (Pod borer):
+   Damage: Bore into pods, feed on developing seeds
+   ETL: 2 larvae/plant or 10% pod damage
+   Control:
+     - NPV (HaNPV) @ 250 LE/ha (start at flower initiation)
+     - Emamectin benzoate 5 SG @ 200 gm/ha
+     - Indoxacarb 14.5 SC @ 333 ml/ha
+     - Spinosad 45 SC @ 125 ml/ha
+   Timing: Start spraying at 50% flowering, repeat at 10-day interval
+
+B. Maruca vitrata (Spotted pod borer):
+   Damage: Webbing on flowers and pods, pod damage
+   Control: Same as Helicoverpa
+
+2. POD FLY (Melanagromyza obtusa):
+   Damage: Maggots feed on developing seeds
+   Control:
+     - Dimethoate 30 EC @ 1.5 liters/ha
+     - Monocrotophos 36 SL @ 1.25 liters/ha
+
+3. PLUME MOTH (Exelastis atomosa):
+   Damage: Caterpillar feeds on flowers and young pods
+   Control: Same as pod borer
+
+4. BLISTER BEETLE (Mylabris spp.):
+   Damage: Adult feeds on flowers and young pods
+   Control: Hand picking and destruction OR
+            Malathion 50 EC @ 2 ml/liter
+
+INTEGRATED PEST MANAGEMENT (IPM):
+- Pheromone traps: 8-10/ha for monitoring
+- Light traps: 1/ha
+- Bird perches: 20-25/ha (insectivorous birds)
+- Intercropping: Reduces pest incidence
+- Neem oil @ 2%: Spray at flower initiation
+- NPV: Biological control, eco-friendly
+
+DISEASE MANAGEMENT:
+------------------
+Major Diseases:
+
+1. WILT (Fusarium udum) - Most serious disease:
+   Symptoms: Sudden yellowing, drooping, wilting, plant death
+   Favorable: High soil temperature, moisture stress
+   Control:
+     - Use resistant varieties (WRG 158, LRG 41)
+     - Seed treatment with Carbendazim @ 2 gm/kg
+     - Soil treatment with Trichoderma @ 2.5 kg/ha
+     - Crop rotation (avoid continuous redgram)
+     - Deep summer ploughing
+     - No cure once disease sets in
+
+2. STERILITY MOSAIC DISEASE (SMD) - Viral disease:
+   Symptoms: Excessive vegetative growth, small pale green leaves, 
+             no flowering, bushy appearance
+   Vector: Eriophyid mite
+   Control:
+     - Use tolerant varieties (LRG 41, ICPL 87119)
+     - Rogue out infected plants early
+     - Control mites with Dicofol 18.5 EC @ 2.5 ml/liter
+     - Avoid late sowing
+
+3. PHYTOPHTHORA BLIGHT:
+   Symptoms: Water-soaked lesions on stem, leaf drop, sudden wilting
+   Favorable: High humidity, waterlogging
+   Control:
+     - Good drainage
+     - Metalaxyl 8% + Mancozeb 64% @ 2.5 kg/ha
+     - Remove and destroy infected plants
+
+4. ALTERNARIA BLIGHT:
+   Symptoms: Circular brown spots on leaves, defoliation
+   Control:
+     - Mancozeb 75 WP @ 2.5 kg/ha
+     - 2-3 sprays at 10-day interval
+
+5. POWDERY MILDEW:
+   Symptoms: White powdery coating on leaves
+   Control:
+     - Sulfur dust @ 25 kg/ha
+     - Carbendazim 50 WP @ 500 gm/ha
+
+FLOWERING & POD SETTING:
+-----------------------
+Flowering: 
+- Medium duration: 60-75 days after sowing
+- Long duration: 90-110 days after sowing
+
+Pod setting: Depends on:
+- Water availability (stress reduces pod set)
+- Temperature (high temperature affects pollination)
+- Pest damage (pod borers)
+
+Tips for better pod set:
+- Irrigate during flowering if possible
+- Control pod borers strictly
+- Apply 2% DAP spray at flowering (improves pod set)
+- Boron spray @ 0.2% (better flower retention)
+
+HARVESTING:
+----------
+Maturity Indices:
+- Leaves turn yellowish and start shedding
+- Pods turn brown/straw colored
+- Seeds become hard
+- 150-200 days after sowing (variety-dependent)
+
+Harvesting Methods:
+
+SINGLE HARVEST (Short & Medium duration):
+- When 70-80% pods mature
+- Cut plants at ground level
+- Stack in small heaps for 5-7 days (curing)
+- Thresh manually or mechanically
+
+MULTIPLE PICKINGS (Long duration):
+- 3-4 pickings at 15-20 day intervals
+- Pick mature pods (brown color)
+- Continue pickings till all pods mature
+- Higher yield but more labor
+
+THRESHING & PROCESSING:
+----------------------
+Threshing:
+- Manual beating with sticks
+- Mechanical thresher (90% efficiency)
+- Clean grains using winnowing
+
+Drying:
+- Sun drying to 10-12% moisture
+- Spread on pucca floor
+- 2-3 days drying
+
+Grading:
+- Remove broken, damaged, immature grains
+- Bold grains fetch better price
+
+Storage:
+- Store in gunny bags in dry place
+- Protect from storage pests (pulse beetle)
+- Use neem leaves or ash to prevent insect damage
+
+ECONOMICS (Per Hectare):
+-----------------------
+SOLE CROP (Rainfed):
+Cost of Cultivation: Rs. 20,000-25,000
+  - Seeds: Rs. 2,500-3,000
+  - Land preparation: Rs. 2,000
+  - Fertilizers: Rs. 3,000
+  - Seed treatment & inoculants: Rs. 500
+  - Plant protection: Rs. 3,000-5,000
+  - Weeding: Rs. 3,000
+  - Harvesting & threshing: Rs. 3,000-4,000
+
+Expected Yield: 12-15 quintals/ha (rainfed)
+Market Price: Rs. 6,000-7,500/quintal
+Gross Income: Rs. 72,000-1,12,500
+Net Profit: Rs. 47,000-87,500/ha
+
+STALKS (Additional): Rs. 3,000-5,000/ha (firewood)
+
+INTERCROP WITH COTTON (Most profitable):
+Redgram additional cost: Rs. 10,000-12,000
+Redgram yield: 8-10 quintals/ha
+Redgram income: Rs. 48,000-75,000
+Extra profit: Rs. 36,000-63,000/ha
+
+Plus cotton income remains almost same!
+Total system productivity increases significantly.
+
+INTERCROPPING ADVANTAGES:
+------------------------
+1. RISK MITIGATION:
+   - If cotton fails, redgram compensates
+   - If redgram fails, cotton is main crop
+   - Income security in drought years
+
+2. ECONOMIC:
+   - Additional income without much extra cost
+   - Better land use efficiency
+   - Two crops from same field
+
+3. AGRONOMIC:
+   - Nitrogen fixation by redgram (benefits cotton)
+   - Soil enrichment
+   - Better pest control (biodiversity)
+
+4. SUSTAINABILITY:
+   - Reduced fertilizer need (N fixation)
+   - Improved soil health
+   - Organic matter addition
+
+INTERCROPPING SYSTEMS:
+---------------------
+COTTON + REDGRAM:
+- Most popular in Andhra Pradesh
+- Ratio: 2:1 or 3:1 (Cotton:Redgram)
+- Cotton harvested first (Oct-Feb)
+- Redgram continues, harvested later (Feb-March)
+- Cotton yield: 90-95% of sole crop
+- Redgram: 8-10 quintals/ha extra income
+
+SORGHUM + REDGRAM:
+- Ratio: 2:2 or 3:3
+- Sorghum harvested first (Oct-Nov)
+- Redgram continues till Feb-March
+
+GROUNDNUT + REDGRAM:
+- Ratio: 4:2
+- Groundnut: Short-duration (110 days)
+- Both harvested together or redgram slightly later
+
+CROP ROTATION:
+-------------
+Recommended:
+Year 1: Redgram
+Year 2: Cereals (Jowar/Maize)
+Year 3: Groundnut/Sunflower
+Then back to Redgram
+
+Avoid continuous redgram (wilt disease buildup)
+
+NUTRITIONAL VALUE:
+-----------------
+Redgram Dal (per 100g):
+- Protein: 20-22%
+- Carbohydrates: 57-60%
+- Fat: 1.5-2%
+- Fiber: 5-6%
+- Rich in: Iron, Calcium, Folic acid
+
+Important pulse for vegetarian diet in India
+
+MARKETING:
+---------
+Options:
+1. Local markets and traders
+2. Regulated markets (APMC)
+3. NAFED procurement (MSP operation)
+4. Direct to dal mills
+
+Market Arrival: December-March
+Best Prices: April-June (low arrivals)
+
+MSP: Announced annually by government (check current rates)
+
+GOVERNMENT SUPPORT:
+------------------
+- MSP: Rs. 7,000+/quintal (varies yearly)
+- NAFED Procurement: When market price < MSP
+- Crop Insurance: PMFBY available
+- Subsidy: Seeds available at subsidized rates
+- Credit: KCC facility for input purchase
+
+COMMON PROBLEMS & SOLUTIONS:
+---------------------------
+Problem 1: Wilt Disease
+Cause: Soil-borne fungus, continuous cropping
+Solution: Use resistant varieties, crop rotation, seed treatment
+
+Problem 2: Pod Borer Damage
+Cause: Caterpillar attack during pod formation
+Solution: NPV spray at flowering, 2-3 chemical sprays if severe
+
+Problem 3: Poor Pod Setting
+Cause: Water stress, high temperature, pest damage
+Solution: Irrigation at flowering, pest control, 2% DAP spray
+
+Problem 4: Sterility Mosaic (No flowering)
+Cause: Viral disease, spread by mites
+Solution: Use tolerant varieties, rogue out infected plants
+
+Problem 5: Waterlogging
+Cause: Heavy rain, poor drainage
+Solution: BBF system, open furrows for drainage
+
+BEST PRACTICES:
+--------------
+1. Use certified seeds of resistant/tolerant varieties
+2. Mandatory seed treatment (fungicide + Rhizobium + PSB)
+3. Broad Bed and Furrow (BBF) system for drainage
+4. Intercropping with cotton for risk mitigation
+5. Start pod borer control at 50% flowering
+6. Avoid continuous redgram cultivation (rotate crops)
+7. Harvest at right maturity (70-80% pods mature)
+8. Crop rotation to prevent wilt disease
+
+SUPPORT & CONTACTS:
+------------------
+- Rythu Seva Kendram (RSK): Technical guidance
+- Dal mills: Market linkage
+- NAFED: MSP procurement
+- Helpline: 1800-425-1551
+- Website: apagrisnet.ap.gov.in
+
+For research information:
+- ICAR-IIPR (Indian Institute of Pulses Research), Kanpur
+- ICRISAT, Hyderabad
+- Regional Agricultural Research Stations
+- ANGRAU Extension Centers
+
+REMEMBER:
+✓ Redgram is nitrogen-fixer (enriches soil)
+✓ Best as intercrop with cotton
+✓ Wilt disease is serious - use resistant varieties
+✓ Pod borer control is critical during flowering
+✓ Deep taproot makes it drought-tolerant
+✓ Avoid waterlogging at all costs
+
+"Redgram + Cotton = Risk-Free, Profitable Farming!"
+

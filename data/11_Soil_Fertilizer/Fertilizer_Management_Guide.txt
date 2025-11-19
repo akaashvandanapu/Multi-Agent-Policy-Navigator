@@ -1,0 +1,764 @@
+FERTILIZER MANAGEMENT GUIDE FOR MAJOR CROPS - ANDHRA PRADESH
+=============================================================
+
+NOTE: For official soil health and fertilizer recommendations, contact:
+- Soil Testing Laboratories (District-wise)
+- Department of Agriculture, AP
+- National Centre for Organic Farming
+
+BASIC PRINCIPLES OF FERTILIZER MANAGEMENT
+=========================================
+
+THREE PRIMARY NUTRIENTS (NPK):
+-----------------------------
+1. NITROGEN (N) - Leaf Growth
+   - Promotes vegetative growth
+   - Dark green color
+   - Protein synthesis
+   
+2. PHOSPHORUS (P) - Root Development
+   - Root growth and establishment
+   - Flowering and fruiting
+   - Energy transfer (ATP)
+   
+3. POTASSIUM (K) - Overall Vigor
+   - Disease resistance
+   - Water regulation
+   - Fruit quality
+
+SECONDARY NUTRIENTS:
+-------------------
+- Calcium (Ca): Cell wall strength
+- Magnesium (Mg): Chlorophyll component
+- Sulphur (S): Protein synthesis, oil quality
+
+MICRONUTRIENTS (Trace elements):
+--------------------------------
+- Zinc (Zn), Iron (Fe), Manganese (Mn)
+- Copper (Cu), Boron (B), Molybdenum (Mo)
+- Required in small quantities but critical
+
+================================================================================
+SECTION 1: MAJOR FERTILIZERS & THEIR NUTRIENT CONTENT
+================================================================================
+
+NITROGENOUS FERTILIZERS:
+-----------------------
+1. UREA (46% N)
+   - Most common nitrogen source
+   - Quick-acting
+   - Hygroscopic (absorbs moisture)
+   - Apply in splits, incorporate in soil
+   - Cost-effective
+
+2. AMMONIUM SULPHATE (20% N + 24% S)
+   - Suitable for alkaline soils
+   - Provides both N and S
+   - Slightly acidifying
+
+3. CALCIUM AMMONIUM NITRATE (CAN) (25% N)
+   - Suitable for acidic soils
+   - Provides some calcium
+   - More expensive than urea
+
+4. AMMONIUM CHLORIDE (25% N)
+   - Not common
+   - Can cause chloride toxicity if overused
+
+PHOSPHATIC FERTILIZERS:
+----------------------
+1. SINGLE SUPER PHOSPHATE (SSP) (16% P₂O₅)
+   - Also contains 11% S and 21% Ca
+   - Best for oilseeds (groundnut - needs S + Ca)
+   - Economical
+
+2. DIAMMONIUM PHOSPHATE (DAP) (18% N + 46% P₂O₅)
+   - High analysis fertilizer
+   - Provides both N and P
+   - Popular for basal application
+   - Slightly alkaline
+
+3. MONO AMMONIUM PHOSPHATE (MAP) (11% N + 52% P₂O₅)
+   - Higher P than DAP
+   - Suitable for high P requirement crops
+
+4. ROCK PHOSPHATE (20-30% P₂O₅)
+   - Organic farming
+   - Slow-release
+   - Suitable for acidic soils
+
+POTASSIC FERTILIZERS:
+--------------------
+1. MURIATE OF POTASH (MOP/KCl) (60% K₂O)
+   - Most common K source
+   - Contains chloride
+   - Economical
+
+2. SULPHATE OF POTASH (SOP/K₂SO₄) (50% K₂O + 18% S)
+   - Chloride-free (better for tobacco, grapes, potato)
+   - Provides both K and S
+   - More expensive than MOP
+
+COMPLEX/NPK FERTILIZERS:
+-----------------------
+- NPK 10:26:26 - General purpose
+- NPK 12:32:16 - High P requirement
+- NPK 17:17:17 - Balanced
+- NPK 19:19:19 - Balanced (high analysis)
+- NPK 20:20:0:13 - With Sulphur
+
+SECONDARY NUTRIENT FERTILIZERS:
+------------------------------
+1. GYPSUM (CaSO₄.2H₂O)
+   - 12% Ca + 16% S
+   - Essential for groundnut, oilseeds
+   - Improves soil structure
+
+2. LIME (CaCO₃)
+   - Corrects soil acidity
+   - Provides calcium
+   - Improves soil pH
+
+3. MAGNESIUM SULPHATE (Epsom Salt)
+   - 10% Mg + 13% S
+   - For Mg-deficient soils
+
+MICRONUTRIENT FERTILIZERS:
+-------------------------
+1. Zinc Sulphate (ZnSO₄.7H₂O): 21% Zn
+2. Ferrous Sulphate (FeSO₄.7H₂O): 19% Fe
+3. Manganese Sulphate (MnSO₄.4H₂O): 26% Mn
+4. Borax (Na₂B₄O₇.10H₂O): 11% B
+5. Copper Sulphate (CuSO₄.5H₂O): 25% Cu
+
+================================================================================
+SECTION 2: CROP-WISE FERTILIZER RECOMMENDATIONS
+================================================================================
+
+A. CEREALS
+----------
+
+1. PADDY (Irrigated)
+Dose: 120:60:40 kg NPK/ha
+
+Fertilizer Equivalent:
+- Urea: 261 kg/ha
+- DAP: 130 kg/ha
+- MOP: 67 kg/ha
+
+Application Schedule:
+Basal (Day 0):           50% N + 100% P + 100% K
+                         = 130 kg Urea + 130 kg DAP + 67 kg MOP
+
+Tillering (21 DAS):      25% N = 65 kg Urea
+
+Panicle Initiation (PI): 25% N = 65 kg Urea
+(40-45 DAS)
+
+Micronutrients:
+- Zinc Sulphate: 25 kg/ha (basal) if Zn deficient
+- Iron: Foliar spray FeSO₄ 0.5% if deficiency
+
+Notes:
+- For short duration varieties: Reduce N by 20%
+- For hybrid rice: Increase N to 150 kg/ha
+- Avoid excess N (causes lodging, pest problems)
+
+2. MAIZE
+Dose: 150:75:60 kg NPK/ha
+
+Fertilizer Equivalent:
+- Urea: 326 kg/ha
+- DAP: 163 kg/ha
+- MOP: 100 kg/ha
+
+Application Schedule:
+Basal (Day 0):       50% N + 100% P + 100% K
+                     = 163 kg Urea + 163 kg DAP + 100 kg MOP
+
+Knee-High (25-30 DAS): 25% N = 82 kg Urea
+
+Tasseling (45-50 DAS): 25% N = 82 kg Urea
+
+Micronutrients:
+- Zinc Sulphate: 25 kg/ha (basal) - important for maize
+- Boron: 5 kg Borax/ha (for sweet corn)
+
+Foliar Nutrition:
+- 2% DAP spray at tasseling and grain filling
+
+Notes:
+- Zinc deficiency very common in maize
+- Apply Zn if white band on leaves
+
+B. OILSEEDS
+-----------
+
+1. GROUNDNUT
+Dose: 20-25:60:50 kg NPK/ha
+
+Fertilizer Equivalent:
+- Urea: 43-54 kg/ha (or SKIP if good Rhizobium)
+- SSP: 375 kg/ha (provides P + S + Ca)
+- MOP: 83 kg/ha
+
+Application Schedule:
+ALL BASAL (At Sowing):
+- Full NPK + FYM 5-7 tonnes/ha
+- GYPSUM: 400-500 kg/ha at flowering (35-40 DAS) - MANDATORY
+
+Micronutrients:
+- Boron: 5 kg Borax/ha (prevents hollow heart)
+- Molybdenum: 1 kg/ha (for nodulation)
+
+Foliar Spray:
+- 2% DAP at flowering and pod development
+
+Notes:
+- GYPSUM IS CRITICAL for pod filling and oil content
+- Low N because it's a legume (fixes nitrogen)
+- Use SSP (not DAP) - provides Sulphur
+- Never skip gypsum application
+
+2. SUNFLOWER
+Dose: 60:90:45 kg NPK/ha
+
+Fertilizer Equivalent:
+- Urea: 130 kg/ha
+- DAP: 196 kg/ha
+- MOP: 75 kg/ha
+
+Application Schedule:
+Basal (Day 0):         50% N + 100% P + 100% K
+                       = 65 kg Urea + 196 kg DAP + 75 kg MOP
+
+Top Dressing (25 DAS): 50% N = 65 kg Urea
+
+Micronutrients:
+- Boron: 5-10 kg Borax/ha (critical for seed filling)
+
+Foliar:
+- 0.2% Boric acid spray at flower initiation and grain filling
+
+Notes:
+- Boron deficiency causes hollow capitulum
+- Don't skip boron application
+
+C. PULSES
+---------
+
+1. REDGRAM
+Dose: 20-25:50:25 kg NPK/ha
+
+Fertilizer Equivalent:
+- Urea: 43-54 kg/ha (or SKIP if Rhizobium)
+- SSP: 313 kg/ha
+- MOP: 42 kg/ha
+- GYPSUM: 125 kg/ha (provides S + Ca)
+
+Application Schedule:
+ALL BASAL: Full NPK + FYM 5-7 tonnes/ha
+No top dressing needed
+
+Micronutrients:
+- Boron: 5 kg Borax/ha (better pod set)
+
+Notes:
+- Phosphorus is most critical for nodulation
+- Low N (it's a legume)
+- Avoid excess N (delays flowering)
+
+2. GREENGRAM/BLACKGRAM
+Dose: 25:50:25 kg NPK/ha
+
+Fertilizer Equivalent:
+- Urea: 54 kg/ha
+- DAP: 109 kg/ha
+- MOP: 42 kg/ha
+
+Application Schedule:
+ALL BASAL: Full NPK
+
+Micronutrients:
+- PSB (Phosphate Solubilizing Bacteria) @ 25 gm/kg seed
+
+Notes:
+- All fertilizer at sowing
+- Short duration (60-70 days)
+
+D. COMMERCIAL CROPS
+-------------------
+
+1. COTTON
+Dose: 150:75:75 kg NPK/ha
+
+Fertilizer Equivalent:
+- Urea: 326 kg/ha
+- DAP: 163 kg/ha
+- MOP: 125 kg/ha
+
+Application Schedule:
+Basal (Day 0):           50% N + 100% P + 100% K
+                         = 163 kg Urea + 163 kg DAP + 125 kg MOP
+
+Square Formation (35 DAS): 25% N = 82 kg Urea
+
+Flowering (55-60 DAS):   25% N = 82 kg Urea
+
+Micronutrients:
+- Zinc Sulphate: 25 kg/ha (basal)
+- Boron: 5 kg Borax/ha (better boll retention)
+
+Foliar Sprays:
+- 1% MgSO₄ + 2% KNO₃ at peak flowering (reduces boll drop)
+- 19:19:19 @ 5 gm/liter (2-3 sprays)
+
+Notes:
+- Don't apply excess N (causes vegetative growth, pest problems)
+- Apply K at flowering for better boll development
+- Foliar nutrition improves boll retention
+
+2. CHILLI
+Dose: 150:75:75 kg NPK/ha (for 6-month crop)
+
+Fertilizer Equivalent:
+- Urea: 326 kg/ha
+- DAP: 163 kg/ha
+- MOP: 125 kg/ha
+- FYM: 25 tonnes/ha (critical)
+
+Application Schedule:
+Basal (Before transplanting):
+- FYM: 25 tonnes/ha
+- 100% P + 50% K = 163 kg DAP + 62 kg MOP
+
+After Transplanting:
+- 30 DAT: 33% N + 25% K = 109 kg Urea + 31 kg MOP
+- 60 DAT: 33% N + 25% K = 109 kg Urea + 31 kg MOP
+- 90 DAT: 33% N = 109 kg Urea
+
+Micronutrients:
+- Zinc, Iron, Boron - all critical
+- Foliar spray of micronutrient mixture
+
+Notes:
+- Chilli is heavy feeder
+- Organic matter (FYM) is essential
+- Multiple pickings - multiple N applications
+
+================================================================================
+SECTION 3: ORGANIC SOURCES OF NUTRIENTS
+================================================================================
+
+FARMYARD MANURE (FYM):
+---------------------
+Nutrient Content: 0.5% N, 0.2% P₂O₅, 0.5% K₂O
+Dose: 10-25 tonnes/ha (crop-dependent)
+Application: 2-3 weeks before sowing
+
+Benefits:
+- Improves soil structure
+- Increases water retention
+- Adds organic matter
+- Slow-release nutrients
+- Enhances microbial activity
+
+COMPOST:
+-------
+Nutrient Content: 0.8% N, 0.5% P₂O₅, 0.8% K₂O
+Dose: 5-10 tonnes/ha
+
+Better than FYM (nutrients more available)
+
+VERMICOMPOST:
+------------
+Nutrient Content: 1.5% N, 1.0% P₂O₅, 1.3% K₂O
+Dose: 2.5-5 tonnes/ha
+
+Benefits:
+- Higher nutrient content than FYM
+- Faster decomposition
+- Improves soil biology
+- Contains growth hormones
+
+GREEN MANURE:
+------------
+Crops: Dhaincha, Sunhemp, Cowpea
+Method: Grow for 45-60 days, incorporate into soil
+
+Benefits:
+- Adds 60-80 kg N/ha (for legumes)
+- Improves soil organic matter
+- Suppresses weeds
+- Breaks disease cycle
+
+BIOFERTILIZERS:
+--------------
+1. RHIZOBIUM: For legumes (fixes 20-40 kg N/ha)
+2. AZOSPIRILLUM: For cereals (fixes 20-25 kg N/ha)
+3. AZOTOBACTER: For vegetables (fixes 15-20 kg N/ha)
+4. PSB: Solubilizes phosphorus (saves 20-25 kg P/ha)
+5. KSB: Mobilizes potassium
+
+Dose: 25 gm/kg seed or 2.5 kg/ha (soil application)
+
+NEEM CAKE:
+---------
+Nutrient Content: 5% N, 1% P₂O₅, 1.5% K₂O
+Dose: 250-500 kg/ha
+
+Benefits:
+- Slow-release nitrogen
+- Nematicidal properties
+- Pest repellent
+- Improves soil health
+
+================================================================================
+SECTION 4: SOIL TESTING & FERTILIZER ADJUSTMENT
+================================================================================
+
+WHY SOIL TESTING?
+----------------
+- Know exact nutrient status of your soil
+- Avoid over-fertilization (saves money)
+- Prevent nutrient deficiency (increases yield)
+- Balanced fertilization
+
+WHEN TO TEST?
+-------------
+- Once in 2-3 years
+- Best time: Before crop season
+- After harvest of previous crop
+
+SOIL SAMPLING:
+-------------
+1. Collect samples from 10-15 spots (zig-zag pattern)
+2. Depth: 0-15 cm (for annual crops)
+3. Mix thoroughly, take 500 gm composite sample
+4. Send to nearest Soil Testing Laboratory
+
+WHAT IS TESTED?
+--------------
+- pH (acidity/alkalinity)
+- Electrical Conductivity (salinity)
+- Organic Carbon
+- Available N, P, K
+- Micronutrients (if requested)
+
+INTERPRETATION:
+--------------
+Nutrient Status based on Soil Test:
+
+NITROGEN:
+- Low: <280 kg/ha
+- Medium: 280-560 kg/ha
+- High: >560 kg/ha
+
+PHOSPHORUS (P₂O₅):
+- Low: <12 kg/ha
+- Medium: 12-25 kg/ha
+- High: >25 kg/ha
+
+POTASSIUM (K₂O):
+- Low: <110 kg/ha
+- Medium: 110-280 kg/ha
+- High: >280 kg/ha
+
+FERTILIZER ADJUSTMENT:
+---------------------
+Based on soil test results, adjust fertilizer dose:
+
+Soil Status    Fertilizer Dose
+-----------    ---------------
+Low            100% of recommendation + 25%
+Medium         100% of recommendation
+High           75% of recommendation
+
+Example:
+If soil test shows HIGH P, apply only 75% of recommended P fertilizer.
+If soil shows LOW K, apply 100% + 25% = 125% of recommended K.
+
+================================================================================
+SECTION 5: NUTRIENT DEFICIENCY SYMPTOMS
+================================================================================
+
+NITROGEN (N) DEFICIENCY:
+-----------------------
+Symptoms:
+- Yellowing of older leaves (chlorosis)
+- Stunted growth
+- Thin stems
+- Lower yield
+
+Correction: Top dress with Urea @ 50-100 kg/ha OR Foliar spray 2% Urea
+
+PHOSPHORUS (P) DEFICIENCY:
+-------------------------
+Symptoms:
+- Dark green or purplish leaves
+- Stunted growth
+- Delayed maturity
+- Poor root development
+
+Correction: Apply DAP or SSP as per crop recommendation
+
+POTASSIUM (K) DEFICIENCY:
+------------------------
+Symptoms:
+- Yellowing and browning of leaf margins (older leaves first)
+- Weak stems (lodging in cereals)
+- Poor grain/fruit quality
+
+Correction: Apply MOP @ 50-75 kg/ha OR Foliar spray 1% KNO₃
+
+ZINC (Zn) DEFICIENCY (Very common in AP):
+-----------------------------------------
+Symptoms:
+- White patches on leaves (especially maize)
+- Short internodes (rosetting)
+- Bronzing in rice
+
+Correction:
+- Soil: Zinc Sulphate @ 25 kg/ha
+- Foliar: 0.5% ZnSO₄ spray (2-3 times)
+
+IRON (Fe) DEFICIENCY:
+--------------------
+Symptoms:
+- Yellowing of young leaves (interveinal chlorosis)
+- Green veins, yellow leaf tissue
+
+Correction: Foliar spray FeSO₄ @ 0.5% (2-3 times)
+
+BORON (B) DEFICIENCY:
+--------------------
+Symptoms:
+- Failure of flowering
+- Hollow stem/heart
+- Poor fruit/seed set
+- In groundnut: Hollow pods
+
+Correction:
+- Soil: Borax @ 5-10 kg/ha
+- Foliar: Boric acid @ 0.2% at flowering
+
+SULPHUR (S) DEFICIENCY (Common in oilseeds):
+--------------------------------------------
+Symptoms:
+- Yellowing of young leaves (similar to N but affects young leaves)
+- Stunted growth
+
+Correction: Apply Gypsum @ 250-500 kg/ha
+
+================================================================================
+SECTION 6: FERTILIZER USE EFFICIENCY (FUE) - BEST PRACTICES
+================================================================================
+
+IMPROVE NITROGEN USE EFFICIENCY:
+-------------------------------
+1. Split Application: Apply N in 2-3 splits (reduces leaching)
+2. Deep Placement: Place urea 8-10 cm deep (rice)
+3. Coating: Use neem-coated urea (slow release)
+4. Right Timing: Apply when crop needs it most
+5. Avoid Broadcast on Surface: Volatilization losses
+
+IMPROVE PHOSPHORUS USE EFFICIENCY:
+---------------------------------
+1. Band Placement: Place near seed/root zone
+2. Mix with FYM: Improves P availability
+3. Use PSB: Solubilizes fixed P
+4. Maintain Soil pH: P availability is best at pH 6.5-7.5
+
+IMPROVE POTASSIUM USE EFFICIENCY:
+--------------------------------
+1. Apply at Critical Stages: Flowering, fruit development
+2. Avoid Surface Application: Incorporate in soil
+3. Split Application: For long-duration crops
+
+GENERAL PRACTICES:
+-----------------
+1. Balanced Fertilization: Apply NPK in right ratio
+2. Soil Testing: Apply based on soil test
+3. Organic Matter: Use FYM/compost (improves FUE)
+4. Biofertilizers: Reduces fertilizer need by 20-25%
+5. Proper Irrigation: Nutrients move to roots via water
+6. Weed Control: Weeds compete for nutrients
+
+================================================================================
+SECTION 7: INTEGRATED NUTRIENT MANAGEMENT (INM)
+================================================================================
+
+CONCEPT:
+Combination of organic and inorganic sources for balanced nutrition
+
+ADVANTAGES:
+- Reduces fertilizer cost by 20-30%
+- Improves soil health
+- Sustainable agriculture
+- Better crop quality
+
+INM APPROACH:
+
+100% NPK Requirement = 50% from Organic + 50% from Chemical
+
+Example for Paddy (120:60:40 NPK/ha):
+- Apply FYM @ 10 tonnes/ha (provides 50 kg N + 20 kg P + 50 kg K)
+- Remaining from chemical fertilizers:
+  * N: 120 - 50 = 70 kg (apply as Urea)
+  * P: 60 - 20 = 40 kg (apply as DAP)
+  * K: 40 - 50 = 0 (no need for MOP!)
+
+Benefits:
+- Saved cost on MOP (not needed)
+- Reduced urea use
+- Improved soil health
+
+INM COMPONENTS:
+1. Organic Manures (FYM, Compost, Vermicompost)
+2. Crop Residues (incorporation after harvest)
+3. Green Manure (Dhaincha, Sunhemp)
+4. Biofertilizers (Rhizobium, Azospirillum, PSB)
+5. Chemical Fertilizers (to meet remaining requirement)
+
+================================================================================
+SECTION 8: FERTIGATION (Fertilizer through Drip Irrigation)
+================================================================================
+
+WHAT IS FERTIGATION?
+Application of water-soluble fertilizers through drip irrigation system
+
+ADVANTAGES:
+- 30-40% fertilizer saving
+- Better nutrient use efficiency
+- Uniform application
+- Reduced labor
+- Timely application
+
+WATER-SOLUBLE FERTILIZERS:
+--------------------------
+- Urea (N)
+- 19:19:19 (NPK)
+- 12:61:00 (High P)
+- 13:00:45 (High K)
+- Potassium Nitrate (13:00:46)
+- Mono Ammonium Phosphate (12:61:00)
+
+FERTIGATION SCHEDULE (Example: Drip Chilli):
+--------------------------------------------
+Total Dose: 150:75:75 kg NPK/ha
+
+Split into weekly applications (20 applications):
+- Each week: 7.5 kg N + 3.75 kg P + 3.75 kg K
+- Use water-soluble NPK through drip
+- Last 30 minutes of irrigation
+
+Benefits:
+- Precise nutrient delivery
+- Reduced nutrient losses
+- Higher yield (20-30% increase)
+
+SUITABLE CROPS:
+- All drip-irrigated crops (vegetables, cotton, sugarcane)
+
+================================================================================
+SECTION 9: GOVERNMENT SUPPORT & SUBSIDY
+================================================================================
+
+SUBSIDY ON FERTILIZERS:
+----------------------
+- Urea: Highly subsidized (MRP fixed by Govt.)
+- DAP, MOP, NPK: Partial subsidy
+
+DBT SCHEME (Direct Benefit Transfer):
+- Subsidy directly to manufacturers
+- Farmers buy at subsidized MRP
+- Aadhaar seeding mandatory in some states
+
+SUBSIDY ON ORGANIC INPUTS:
+-------------------------
+Under Various Schemes:
+- 50% subsidy on vermicompost units
+- Subsidy on bio-fertilizer production
+- Support for composting infrastructure
+
+NEEM-COATED UREA:
+----------------
+- Mandatory for all domestic urea production
+- Reduces N losses by 20-30%
+- Same price as normal urea
+
+SOIL HEALTH CARD:
+----------------
+- Free soil testing (once in 2-3 years)
+- Crop-wise fertilizer recommendation
+- Available at Rythu Seva Kendralu (RSK)
+
+================================================================================
+SECTION 10: STORAGE & HANDLING
+================================================================================
+
+FERTILIZER STORAGE:
+------------------
+1. Store in dry, well-ventilated place
+2. Keep away from direct sunlight
+3. Stack bags on wooden pallets (not on bare floor)
+4. Maximum stack height: 10-12 bags
+5. Keep away from seeds, food grains
+6. Check for moisture/caking periodically
+
+SHELF LIFE:
+----------
+- Urea: 2-3 years (if stored properly)
+- DAP/MOP: 2-3 years
+- Complex fertilizers: 1-2 years
+- Bio-fertilizers: 6 months (refrigerated)
+
+HANDLING PRECAUTIONS:
+--------------------
+- Avoid skin contact with fertilizers
+- Wash hands after handling
+- Don't inhale fertilizer dust
+- Use mask if handling large quantities
+
+================================================================================
+SECTION 11: CONTACT & SUPPORT
+================================================================================
+
+FOR SOIL TESTING:
+- Soil Testing Laboratories: District-wise
+- Contact: District Agriculture Officer
+- Mobile Soil Testing Labs: Mandal-level
+
+FOR TECHNICAL ADVICE:
+- Rythu Seva Kendram (RSK): Village-level
+- Agricultural Officers: Mandal-level
+- KVK (Krishi Vigyan Kendra): District-level
+
+FOR FERTILIZER QUALITY COMPLAINTS:
+- Department of Agriculture, AP
+- Fertilizer Quality Control Lab
+
+HELPLINE:
+- Agriculture Department: 1800-425-1551
+
+DIGITAL RESOURCES:
+- Soil Health Card Portal: soilhealth.dac.gov.in
+- AP Agriculture: apagrisnet.ap.gov.in
+
+================================================================================
+REMEMBER - THE 4 Rs OF FERTILIZER MANAGEMENT:
+================================================================================
+
+1. RIGHT SOURCE: Choose appropriate fertilizer for the crop
+2. RIGHT RATE: Apply based on soil test and crop requirement
+3. RIGHT TIME: Apply when crop needs it (split application)
+4. RIGHT PLACE: Apply near root zone (incorporation)
+
+**"Balanced Fertilization = Healthy Crops = Higher Income"**
+
+================================================================================
+Document Prepared: 2024
+Reference: Department of Agriculture, Government of Andhra Pradesh
+ICAR - Indian Institute of Soil Science
+================================================================================
+

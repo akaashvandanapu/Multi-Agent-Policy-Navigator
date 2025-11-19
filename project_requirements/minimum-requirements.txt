@@ -1,0 +1,12 @@
+Minimum Requirements Criteria for the Project
+1. Context Sharing: Intermediate outputs from one agent must feed into another. Use state for sharing context.
+
+2. Tool Integration using MCP: At least two external tools (library or custom) must be used (e.g., web search API, database lookup, file parser, calculator).
+
+3. Structured Output using Pydantic - final output must be generated in a structured form (Markdown, Table, or JSON).
+
+4. Task Monitoring & Logging using Callback functions: Agents must include a monitoring mechanism that tracks intermediate outputs, execution flows, and errors for transparency and debugging.
+
+5. Agent to Agent communication using the A2A protocol. Use interoperability - e.g. one agent defined using ADK another using CrewAI.
+
+6. You MUST use either or both of CrewAI and/or ADK as the agentic framework for the implementation. If needed, you are free to use any other framework (e.g. LangGraph, etc.) in addition to CrewAI/ADK. The majority of the project should be developed using ADK or CrewAI.

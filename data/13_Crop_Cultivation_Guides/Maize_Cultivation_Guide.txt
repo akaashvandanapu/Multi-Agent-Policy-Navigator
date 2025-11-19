@@ -1,0 +1,432 @@
+MAIZE (CORN) CULTIVATION GUIDE - ANDHRA PRADESH
+===============================================
+
+NOTE: For official publications, contact:
+- ICAR-Indian Institute of Maize Research, New Delhi
+- ANGRAU Regional Research Stations
+- Department of Agriculture, AP
+
+BASIC INFORMATION:
+-----------------
+Maize is an important cereal crop, grown for grain, fodder, and industrial use.
+Area: 2-3 lakh hectares | Average Yield: 60-70 quintals/ha
+
+MAJOR DISTRICTS: Krishna, Guntur, Prakasam, East Godavari, Kurnool
+
+CROP SEASONS:
+------------
+KHARIF: June-July sowing → October-November harvest (90-110 days)
+RABI: October-November sowing → February-March harvest (90-100 days)
+SUMMER: January-February sowing → April-May harvest (85-95 days)
+
+POPULAR VARIETIES & HYBRIDS:
+----------------------------
+GRAIN PURPOSE:
+- DHM 117: 90-95 days, 75-80 q/ha, yellow grain
+- DHM 121: 95-100 days, 80-85 q/ha
+- 900 M Gold (Private): 85-90 days, 85-95 q/ha
+- NK 6240 (Private): 90-95 days, high yielding
+- Pioneer 3396: 85-90 days, stress tolerant
+
+SWEET CORN:
+- Sugar 75: 75-80 days, sweet kernels
+- Madhuri: 70-75 days, high TSS
+
+BABY CORN:
+- HM 4: 70-75 days, multiple pickings
+
+QUALITY PROTEIN MAIZE (QPM):
+- HQPM 1: 85-90 days, high lysine content
+- Better nutrition for poultry/humans
+
+POPCORN:
+- Amber Popcorn: 85-90 days, good popping quality
+
+SOIL REQUIREMENTS:
+-----------------
+Best: Well-drained loam to clay-loam soils
+pH: 5.5-7.5 (slightly acidic to neutral)
+Depth: Minimum 45 cm (deep-rooted)
+Drainage: Good drainage essential
+Avoid: Waterlogged, highly saline soils
+
+LAND PREPARATION:
+----------------
+1. One deep ploughing
+2. 2-3 harrowing for fine tilth
+3. Leveling for uniform irrigation
+4. Ridges and furrows (60 cm apart) for rainfed
+5. Flat beds for irrigated conditions
+
+SEED REQUIREMENTS:
+-----------------
+Hybrids: 20-22 kg/ha (8-9 kg/acre)
+Composites/OPVs: 25-30 kg/ha (10-12 kg/acre)
+Use certified hybrid seeds (don't save for next season)
+
+SEED TREATMENT:
+--------------
+1. Thiram @ 3 gm/kg seed (fungal protection)
+2. Imidacloprid @ 5 gm/kg seed (early pest protection)
+3. Azospirillum @ 25 gm/kg (N fixation - 20-25 kg N/ha)
+
+SOWING:
+------
+Method: 
+- Dibbling (2-3 seeds/hill)
+- Seed drill/planter (for large areas)
+
+Depth: 4-5 cm
+Spacing:
+- Grain maize: 60 cm x 20 cm or 75 cm x 20 cm
+- Baby corn: 45 cm x 20 cm (higher density)
+- Sweet corn: 60 cm x 25 cm
+
+Thinning: 10-15 DAS, retain 1 healthy plant/hill
+Plant population: 60,000-75,000 plants/ha
+
+IRRIGATION:
+----------
+Total water requirement: 500-700 mm
+
+Critical Stages (MUST irrigate):
+1. Knee-high stage (25-30 DAS)
+2. Tasseling stage (50-55 DAS) - MOST CRITICAL
+3. Silking stage (55-60 DAS) - MOST CRITICAL
+4. Grain filling (70-80 DAS)
+
+Irrigation Schedule:
+- Pre-sowing (if soil is dry)
+- First irrigation: 20-25 DAS (knee-high)
+- Subsequently: 10-12 day interval
+
+Avoid water stress during tasseling-silking (40% yield loss possible)
+
+FERTILIZER MANAGEMENT:
+---------------------
+NPK: 150:75:60 kg/ha (for grain maize)
+
+FERTILIZER EQUIVALENT:
+- Urea: 326 kg/ha
+- DAP: 163 kg/ha
+- MOP: 100 kg/ha
+
+APPLICATION SCHEDULE:
+
+BASAL (At Sowing):
+- 50% N + 100% P + 100% K
+- Quantity: 163 kg Urea + 163 kg DAP + 100 kg MOP
+- FYM: 10 tonnes/ha (if available)
+
+FIRST TOP DRESSING (25-30 DAS - Knee High):
+- 25% N
+- Quantity: 82 kg Urea/ha
+
+SECOND TOP DRESSING (45-50 DAS - Tasseling):
+- 25% N
+- Quantity: 82 kg Urea/ha
+
+MICRONUTRIENTS:
+- Zinc Sulphate: 25 kg/ha (if Zn deficient soils)
+- Boron: 5 kg Borax/ha (for sweet corn, improves quality)
+
+FOLIAR NUTRITION:
+- 2% DAP spray at tasseling and grain filling
+- Helps in better grain development
+
+WEED MANAGEMENT:
+---------------
+Critical Period: First 30-40 days
+
+Cultural:
+- Hand weeding at 20 and 35 DAS
+- Inter-cultivation with blade harrow (15-20 DAS)
+- Mulching with crop residues
+
+Chemical:
+Pre-emergence (within 2-3 days):
+  - Atrazine 50 WP @ 1 kg/ha
+  - Apply in 500 liters water, keep soil moist
+
+Post-emergence (20-25 DAS):
+  - 2,4-D Sodium Salt @ 2.5 kg/ha (for broad-leaf weeds)
+  - Avoid during tasseling stage (crop injury)
+
+PEST MANAGEMENT:
+---------------
+Major Pests:
+
+1. STEM BORER (Chilo partellus):
+   Damage: Dead heart, stem tunneling
+   Control:
+     - Chlorantraniliprole 18.5 SC @ 150 ml/ha
+     - Cartap hydrochloride 50 SP @ 1 kg/ha
+   ETL: 10% plants with dead heart
+
+2. FALL ARMYWORM (Spodoptera frugiperda):
+   **Recent serious pest**
+   Damage: Whorl feeding, defoliation
+   Control:
+     - Emamectin benzoate 5 SG @ 300 gm/ha
+     - Chlorantraniliprole 18.5 SC @ 150 ml/ha
+     - Spinosad 45 SC @ 125 ml/ha
+     - Early morning spray (caterpillars active)
+   ETL: 5% plants with whorl damage
+
+3. PINK STEM BORER (Sesamia inferens):
+   Damage: Pink caterpillar in stem
+   Control: Same as stem borer
+
+4. COB BORER (Helicoverpa armigera):
+   Damage: Bore into cobs, grain damage
+   Control:
+     - NPV @ 250 LE/ha
+     - Indoxacarb 14.5 SC @ 333 ml/ha
+   Time: Apply at silking stage
+
+5. SHOOT FLY (Atherigona soccata):
+   Damage: Dead heart in seedling stage
+   Control: Seed treatment with Imidacloprid
+
+6. APHIDS (Rhopalosiphum maidis):
+   Damage: Leaf curling, honeydew
+   Control: Imidacloprid 17.8 SL @ 200 ml/ha
+
+INTEGRATED PEST MANAGEMENT:
+- Pheromone traps: 8-10/ha
+- Light traps: 1/ha
+- Remove and destroy infested plants
+- Avoid late sowing (reduces pest incidence)
+
+DISEASE MANAGEMENT:
+------------------
+Major Diseases:
+
+1. TURCICUM LEAF BLIGHT (Exserohilum turcicum):
+   Symptoms: Elliptical tan lesions on leaves
+   Control:
+     - Resistant hybrids
+     - Mancozeb 75 WP @ 2.5 kg/ha
+     - 2-3 sprays at 10-day interval
+
+2. MAYDIS LEAF BLIGHT (Bipolaris maydis):
+   Symptoms: Rectangular brown spots between veins
+   Control: Mancozeb 75 WP @ 2.5 kg/ha
+
+3. COMMON RUST (Puccinia sorghi):
+   Symptoms: Reddish-brown pustules on leaves
+   Control:
+     - Resistant varieties
+     - Mancozeb 75 WP @ 2.5 kg/ha
+
+4. DOWNY MILDEW (Peronosclerospora sorghi):
+   Symptoms: White downy growth on leaves, "crazy top"
+   Control:
+     - Use disease-free seeds
+     - Metalaxyl 8% + Mancozeb 64% @ 2.5 kg/ha
+     - Remove and destroy infected plants
+
+5. POST-FLOWERING STALK ROT:
+   Symptoms: Stalk rot, lodging after flowering
+   Control:
+     - Balanced fertilization (avoid excess N)
+     - Timely harvest
+     - Good drainage
+
+PHYSIOLOGICAL DISORDERS:
+-----------------------
+1. BARRENNESS (No cob formation):
+   Cause: Water/nutrient stress during tasseling
+   Prevention: Ensure irrigation at critical stages
+
+2. POOR GRAIN FILLING:
+   Cause: Water stress, pest damage
+   Prevention: Irrigation, pest control
+
+HARVESTING:
+----------
+Maturity Indices:
+- Grains hard and flinty
+- Moisture content: 20-25% (for grain)
+- Husk turns brown
+- Black layer formation at grain base
+- 85-100 days after sowing (variety-dependent)
+
+For Grain:
+- Harvest when moisture is 20-25%
+- Cobs harvested, dehusked
+- Further drying to 14% moisture
+- Shelling (mechanical thresher - 95% efficiency)
+
+For Fodder:
+- Harvest at milk to dough stage
+- Cut at 10-15 cm above ground level
+- Green fodder yield: 400-500 quintals/ha
+
+For Baby Corn:
+- Harvest at 2-3 days after silk emergence
+- Multiple pickings (4-6 times)
+- Yield: 25-30 quintals/ha (without husk)
+
+For Sweet Corn:
+- Harvest at milk stage (20-23 days after silking)
+- Kernel moisture: 70-75%
+- Consume fresh or process immediately
+
+DRYING & STORAGE:
+----------------
+Drying:
+- Spread in thin layer
+- Sun drying or mechanical dryer
+- Target: 12-14% moisture for safe storage
+
+Storage:
+- Store in well-ventilated godown
+- Use sealed containers for seed
+- Protect from rodents and storage pests
+- Check moisture periodically
+
+Grain Quality:
+- Color: Bright yellow (for yellow maize)
+- Moisture: 12-14%
+- Test weight: >74 kg/hl
+- Free from insect damage, fungal infection
+
+ECONOMICS (Per Hectare):
+-----------------------
+KHARIF MAIZE (Grain):
+Cost of Cultivation: Rs. 35,000-40,000
+  - Seeds (hybrid): Rs. 8,000-10,000
+  - Land preparation: Rs. 4,000
+  - Fertilizers: Rs. 8,000-10,000
+  - Plant protection: Rs. 4,000-5,000
+  - Irrigation: Rs. 3,000
+  - Weeding: Rs. 3,000
+  - Harvesting & threshing: Rs. 5,000
+
+Expected Yield: 60-70 quintals/ha
+Market Price: Rs. 1,800-2,200/quintal
+Gross Income: Rs. 1,08,000-1,54,000
+Net Profit: Rs. 68,000-1,14,000/ha
+
+Fodder Income (Additional): Rs. 5,000-8,000/ha
+
+BABY CORN (High Value):
+Cost: Rs. 40,000-45,000/ha
+Yield: 25-30 q/ha (dehusked)
+Price: Rs. 15,000-20,000/quintal
+Gross Income: Rs. 3,75,000-6,00,000
+Net Profit: Rs. 3,30,000-5,55,000/ha (Very profitable!)
+
+SWEET CORN:
+Cost: Rs. 35,000-40,000/ha
+Yield: 100-120 quintals green cobs/ha
+Price: Rs. 1,500-2,500/quintal
+Gross Income: Rs. 1,50,000-3,00,000
+Net Profit: Rs. 1,10,000-2,60,000/ha
+
+INTERCROPPING:
+-------------
+Not commonly practiced (maize is a heavy feeder)
+Possible:
+- Maize + Cowpea (2:1) - Fodder purpose
+- Maize + Soybean (1:1) - In assured rainfall areas
+
+CROP ROTATION:
+-------------
+Recommended:
+Year 1: Maize → Year 2: Legumes (Greengram/Blackgram)
+OR
+Kharif Maize → Rabi Vegetables → Summer Greengram
+
+USES OF MAIZE:
+-------------
+1. Human Food: Roasted corn, cornflakes, popcorn, sweet corn
+2. Animal Feed: Poultry feed (70% of maize goes to poultry)
+3. Industrial: Starch, oil, biofuel, glucose
+4. Fodder: Green fodder for cattle (nutritious)
+
+MARKETING:
+---------
+Options:
+1. Poultry feed mills (major buyer - 70%)
+2. Starch industries
+3. Regulated markets
+4. Direct to food processing units (sweet corn, baby corn)
+
+Best Season for Selling: Rabi crop (less supply, better price)
+
+GOVERNMENT SUPPORT:
+------------------
+- No MSP for maize currently
+- Crop Insurance: PMFBY available
+- Seeds: Subsidized through department
+- Credit: KCC facility available
+
+COMMON PROBLEMS & SOLUTIONS:
+---------------------------
+Problem 1: Poor Germination
+Cause: Old seeds, deep sowing, soil crusting
+Solution: Use certified seeds, sow at 4-5 cm, light irrigation
+
+Problem 2: Barren Plants (No Cobs)
+Cause: Water stress during tasseling
+Solution: Must irrigate at 45-60 DAS period
+
+Problem 3: Fall Armyworm Attack
+Cause: Recent pest, widespread
+Solution: Spray Emamectin benzoate + Chlorantraniliprole in rotation
+
+Problem 4: Cob Not Filled
+Cause: Poor pollination, water stress
+Solution: Ensure adequate plants/ha, irrigate at silking
+
+Problem 5: Lodging (Plants Falling)
+Cause: Stalk rot, excess N, heavy rain/wind
+Solution: Balanced fertilization, timely harvest
+
+BEST PRACTICES:
+--------------
+1. Use certified hybrid seeds (don't save seeds)
+2. Maintain proper plant population (60,000-75,000/ha)
+3. MUST irrigate at tasseling and silking stages
+4. Split nitrogen application (3 doses)
+5. Control fall armyworm early (scout fields)
+6. Harvest at right moisture (20-25%)
+7. Dry to 12-14% before storage
+8. Crop rotation to break pest cycle
+
+SPECIAL CROP: BABY CORN
+-----------------------
+(Very profitable but requires labor)
+- High density planting (1 lakh plants/ha)
+- Harvest young cobs (2-3 days after silking)
+- 4-6 pickings over 15-20 days
+- Remove husk and silk immediately
+- Pack and sell fresh (perishable)
+- High demand in cities, hotels
+- Very profitable: Rs. 3-5 lakh/ha profit
+
+SUPPORT & CONTACTS:
+------------------
+- Rythu Seva Kendram (RSK): Technical guidance
+- Poultry feed mills: Market linkage
+- KVK: Training on value addition
+- Helpline: 1800-425-1551
+- Website: apagrisnet.ap.gov.in
+
+For research information:
+- ICAR-IIMR (Indian Institute of Maize Research), New Delhi
+- Regional Agricultural Research Stations
+- ANGRAU Extension Centers
+
+REMEMBER:
+✓ Maize is sensitive to water stress at tasseling
+✓ Never skip irrigation at 45-60 DAS period
+✓ Fall armyworm is a serious pest - monitor regularly
+✓ Hybrid seeds give 30-40% more yield than composites
+✓ Baby corn and sweet corn are highly profitable
+✓ Don't save hybrid seeds for next season (F1 hybrid)
+
+"Water at Tasseling = Good Cob Formation = High Yield!"
+

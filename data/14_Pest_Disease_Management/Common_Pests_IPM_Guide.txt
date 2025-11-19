@@ -1,0 +1,528 @@
+INTEGRATED PEST MANAGEMENT (IPM) GUIDE - ANDHRA PRADESH
+=======================================================
+
+NOTE: For official IPM guidelines, contact:
+- National Centre for Integrated Pest Management (NCIPM), New Delhi
+- Directorate of Plant Protection, AP
+- ANGRAU Extension Centers
+
+WHAT IS IPM?
+-----------
+Integrated Pest Management is an eco-friendly approach that combines:
+- Cultural practices
+- Biological control
+- Mechanical methods
+- Chemical control (as last resort)
+
+GOAL: Keep pests below Economic Threshold Level (ETL) using eco-friendly methods
+
+PRINCIPLES OF IPM:
+-----------------
+1. Pest monitoring and identification
+2. Prevention is better than cure
+3. Economic Threshold Level (ETL) concept
+4. Multiple control methods (integrated approach)
+5. Conserve natural enemies
+6. Judicious use of pesticides
+
+================================================================================
+SECTION 1: MAJOR PESTS ACROSS CROPS
+================================================================================
+
+A. SUCKING PESTS (Damage by sucking plant sap)
+-----------------------------------------------
+
+1. APHIDS (Various species)
+   Crops Affected: Cotton, Paddy, Vegetables, Pulses
+   Damage: Leaf curling, honeydew, sooty mold, virus transmission
+   ETL: 10-15 aphids per leaf or 5-10% curled leaves
+   
+   CONTROL:
+   Cultural: Remove weeds, avoid excess nitrogen
+   Mechanical: Water jet spray (dislodges aphids)
+   Biological: Ladybird beetles, Chrysoperla, Syrphid flies
+   Chemical: Imidacloprid 17.8 SL @ 200 ml/ha
+             Acetamiprid 20 SP @ 100 gm/ha
+             Thiamethoxam 25 WG @ 100 gm/ha
+
+2. WHITEFLY (Bemisia tabaci)
+   Crops Affected: Cotton, Tomato, Chilli, Brinjal
+   Damage: Leaf yellowing, honeydew, virus transmission
+   ETL: 5-10 adults per leaf (top 3 leaves)
+   
+   CONTROL:
+   Cultural: Avoid water stress, remove affected leaves
+   Mechanical: Yellow sticky traps @ 10-12/ha
+   Biological: Encarsia formosa (parasitoid), Chrysoperla
+   Chemical: Spiromesifen 240 SC @ 600 ml/ha
+             Pyriproxyfen 10 EC @ 1 liter/ha
+             Diafenthiuron 50 WP @ 1 kg/ha
+             **Rotate insecticides to prevent resistance**
+
+3. JASSIDS/LEAFHOPPERS (Amrasca biguttula)
+   Crops Affected: Cotton, Vegetables
+   Damage: Hopper burn, leaf reddening, curling
+   ETL: 1-2 nymphs per leaf
+   
+   CONTROL:
+   Cultural: Avoid excess nitrogen
+   Mechanical: Neem oil spray @ 2%
+   Biological: Spiders, mirid bugs
+   Chemical: Thiamethoxam 25 WG @ 100 gm/ha
+             Flonicamid 50 WG @ 150 gm/ha
+
+4. THRIPS (Thrips tabaci, Scirtothrips dorsalis)
+   Crops Affected: Cotton, Chilli, Onion, Groundnut
+   Damage: Silvering of leaves, distorted growth
+   ETL: 5-10 thrips per leaf
+   
+   CONTROL:
+   Mechanical: Blue sticky traps
+   Biological: Predatory mites
+   Chemical: Fipronil 5 SC @ 1.5-2 liters/ha
+             Dimethoate 30 EC @ 1.65 liters/ha
+
+5. MEALYBUGS (Phenacoccus solenopsis)
+   Crops Affected: Cotton, Vegetables, Fruit trees
+   Damage: Honeydew, sooty mold, plant weakening
+   ETL: 5-10 mealybugs per plant
+   
+   CONTROL:
+   Mechanical: Remove and destroy heavily infested parts
+   Biological: Cryptolaemus montrouzieri (ladybird beetle)
+   Chemical: Buprofezin 25 SC @ 1 liter/ha
+             Spiromesifen 240 SC @ 600 ml/ha
+
+B. CHEWING PESTS (Damage by chewing/eating plant parts)
+-------------------------------------------------------
+
+1. STEM BORER (Paddy, Maize)
+   Species: Scirpophaga incertulas (Rice), Chilo partellus (Maize)
+   Damage: Dead heart (vegetative), White ear (reproductive)
+   ETL: 5% dead hearts or 1% white ears
+   
+   CONTROL:
+   Cultural: Remove stubbles, avoid staggered planting
+   Mechanical: Pheromone traps @ 20/ha, light traps
+   Biological: Trichogramma japonicum @ 50,000/ha (6 releases)
+               Braconid wasps (conserve)
+   Chemical: Chlorantraniliprole 18.5 SC @ 150 ml/ha
+             Cartap hydrochloride 50 SP @ 1 kg/ha
+
+2. BOLLWORM COMPLEX (Cotton, Vegetables)
+   Species: Helicoverpa armigera (American bollworm)
+            Earias vitella (Spotted bollworm)
+            Pectinophora gossypiella (Pink bollworm)
+   
+   Damage: Bore into squares, flowers, bolls/fruits
+   ETL: 8-10% damaged squares/bolls or 1-2 larvae/plant
+   
+   CONTROL:
+   Cultural: Crop rotation, deep summer ploughing
+   Mechanical: Pheromone traps @ 10-15/ha, hand picking
+   Biological: NPV (HaNPV) @ 250 LE/ha
+               Trichogramma chilonis @ 50,000/ha (6 releases)
+               Chrysoperla carnea @ 50,000/ha
+   Chemical: Emamectin benzoate 5 SG @ 200-300 gm/ha
+             Chlorantraniliprole 18.5 SC @ 150 ml/ha
+             Spinosad 45 SC @ 125 ml/ha
+             Indoxacarb 14.5 SC @ 333 ml/ha
+
+3. FALL ARMYWORM (Spodoptera frugiperda) - Recent serious pest
+   Crops Affected: Maize, Cotton, Vegetables
+   Damage: Whorl feeding, defoliation
+   ETL: 5% plants with whorl damage
+   
+   CONTROL:
+   Cultural: Early sowing, handpicking egg masses
+   Mechanical: Pheromone traps @ 15/ha, light traps
+   Biological: NPV (SfNPV), Telenomus remus (egg parasitoid)
+   Chemical: Emamectin benzoate 5 SG @ 300 gm/ha
+             Chlorantraniliprole 18.5 SC @ 150 ml/ha
+             Spinetoram 11.7 SC @ 450 ml/ha
+   **Spray in early morning (caterpillars active)**
+
+4. LEAF FOLDER (Paddy)
+   Species: Cnaphalocrocis medinalis
+   Damage: Longitudinal leaf folding, reduced photosynthesis
+   ETL: 1-2 damaged leaves per plant
+   
+   CONTROL:
+   Mechanical: Sweep with rope to dislodge larvae
+   Biological: Trichogramma chilonis
+   Chemical: Acephate 75 SP @ 1.5 kg/ha
+             Cartap hydrochloride 50 SP @ 1 kg/ha
+
+5. CUTWORM (Vegetables, Maize)
+   Species: Agrotis spp.
+   Damage: Cut seedlings at ground level
+   ETL: 2-3 larvae per sq. meter
+   
+   CONTROL:
+   Cultural: Remove weeds, clean field
+   Mechanical: Hand picking in early morning
+   Chemical: Chlorpyriphos 20 EC @ 2.5 liters/ha (soil application)
+
+C. HOPPERS (Sap suckers - serious pests)
+----------------------------------------
+
+1. BROWN PLANT HOPPER (BPH) - Paddy
+   Species: Nilaparvata lugens
+   Damage: Hopper burn (entire field turns brown)
+   ETL: 10-15 hoppers per plant at vegetative stage
+   
+   CONTROL:
+   Cultural: Avoid excess nitrogen, drain water temporarily
+   Mechanical: Light traps
+   Biological: Spiders, mirid bugs, Beauveria bassiana
+   Chemical: Buprofezin 25 SC @ 1 liter/ha
+             Pymetrozine 50 WG @ 300 gm/ha
+             **Avoid broad-spectrum insecticides (kills natural enemies)**
+
+================================================================================
+SECTION 2: MAJOR DISEASES
+================================================================================
+
+A. FUNGAL DISEASES
+------------------
+
+1. BLAST (Paddy) - "Rice Cancer"
+   Pathogen: Pyricularia oryzae
+   Symptoms: Spindle-shaped spots on leaves, neck rot
+   Favorable: High humidity, excess nitrogen
+   
+   CONTROL:
+   Cultural: Use resistant varieties, balanced fertilization
+   Chemical: Tricyclazole 75 WP @ 500 gm/ha
+             Isoprothiolane 40 EC @ 1.5 liters/ha
+             Spray at tillering, panicle initiation
+
+2. WILT (Cotton, Redgram, Tomato)
+   Pathogen: Fusarium spp.
+   Symptoms: Sudden wilting, yellowing, vascular browning
+   Favorable: High temperature, continuous cropping
+   
+   CONTROL:
+   Cultural: Crop rotation, deep summer ploughing
+   Seed Treatment: Carbendazim @ 2 gm/kg seed
+   Soil Treatment: Trichoderma viride @ 2.5 kg/ha
+   Chemical: Carbendazim 50 WP @ 1 gm/liter (soil drench)
+
+3. POWDERY MILDEW (Vegetables, Pulses)
+   Pathogen: Erysiphe spp.
+   Symptoms: White powdery growth on leaves
+   Favorable: Dry weather, high humidity at night
+   
+   CONTROL:
+   Cultural: Proper spacing for air circulation
+   Chemical: Sulfur dust @ 25 kg/ha
+             Azoxystrobin 23 SC @ 1 ml/liter
+             Dinocap 48 EC @ 1 ml/liter
+
+4. RUST (Groundnut, Redgram)
+   Pathogen: Puccinia spp.
+   Symptoms: Orange-brown pustules on leaves
+   Favorable: High humidity, moderate temperature
+   
+   CONTROL:
+   Cultural: Use resistant varieties
+   Chemical: Sulfur dust @ 25 kg/ha
+             Mancozeb 75 WP @ 2.5 kg/ha
+
+5. TIKKA/LEAF SPOT (Groundnut)
+   Pathogen: Cercospora spp.
+   Symptoms: Circular brown spots with yellow halo
+   Favorable: High humidity, continuous rain
+   
+   CONTROL:
+   Cultural: Use resistant varieties (Kadiri 9)
+   Chemical: Mancozeb 75 WP @ 2.5 kg/ha
+             Carbendazim 50 WP @ 500 gm/ha
+             3 sprays: 30, 45, 60 DAS
+
+B. BACTERIAL DISEASES
+---------------------
+
+1. BACTERIAL LEAF BLIGHT (Paddy)
+   Pathogen: Xanthomonas oryzae
+   Symptoms: Water-soaked lesions, straw-colored with wavy margins
+   Favorable: Heavy rain, high wind
+   
+   CONTROL:
+   Cultural: Use disease-free seeds, avoid excess nitrogen
+   Chemical: Copper oxychloride 50 WP @ 2.5 kg/ha
+             Streptocycline @ 200 ppm (2 sprays)
+
+2. BACTERIAL BLIGHT (Cotton)
+   Pathogen: Xanthomonas campestris
+   Symptoms: Angular lesions, black arm, boll rot
+   Favorable: High humidity, overhead irrigation
+   
+   CONTROL:
+   Cultural: Acid-delinted seeds, avoid overhead irrigation
+   Seed Treatment: Streptocycline @ 200 ppm
+   Foliar Spray: Streptocycline + Copper oxychloride
+
+C. VIRAL DISEASES
+----------------
+
+1. YELLOW MOSAIC (Pulses, Vegetables)
+   Symptoms: Yellow mosaic pattern on leaves, stunting
+   Vector: Whitefly
+   
+   CONTROL:
+   Use resistant varieties
+   Control whitefly vector with Imidacloprid
+   Remove and destroy infected plants
+
+2. ROSETTE DISEASE (Groundnut)
+   Symptoms: Stunting, rosette formation
+   Vector: Aphids
+   
+   CONTROL:
+   Control aphids early
+   Imidacloprid seed treatment @ 5 gm/kg
+   Foliar spray at aphid appearance
+
+================================================================================
+SECTION 3: IPM IMPLEMENTATION STRATEGY
+================================================================================
+
+STEP 1: MONITORING & SURVEILLANCE
+---------------------------------
+- Field scouting: 2-3 times per week
+- Check 20 plants randomly across field
+- Record pest/disease incidence
+- Use monitoring tools:
+  * Pheromone traps (pest monitoring)
+  * Light traps (adult moth catch)
+  * Yellow/Blue sticky traps (sucking pests)
+
+DECISION MAKING:
+- Compare with ETL
+- If below ETL → Continue monitoring
+- If at/above ETL → Initiate control measures
+
+STEP 2: PREVENTIVE MEASURES
+---------------------------
+BEFORE SOWING:
+- Summer ploughing (exposes pests to sun/predators)
+- Crop rotation
+- Clean field (remove previous crop residues)
+
+AT SOWING:
+- Seed treatment (insecticide + fungicide + bio-agent)
+- Use resistant/tolerant varieties
+- Optimum spacing (air circulation)
+
+DURING CROP GROWTH:
+- Balanced fertilization (avoid excess N)
+- Timely irrigation (avoid stress)
+- Weed management (removes alternate hosts)
+
+STEP 3: NON-CHEMICAL CONTROL
+----------------------------
+PHYSICAL/MECHANICAL:
+- Hand picking of larvae/egg masses
+- Pruning and destroying infected plant parts
+- Trap crops (marigold for bollworm)
+- Bird perches @ 25/ha
+- Sticky traps
+
+BIOLOGICAL:
+- Trichogramma (egg parasitoid) - 6 releases @ 50,000/ha
+- NPV (virus for caterpillars) @ 250 LE/ha
+- Trichoderma (for soil-borne diseases) @ 2.5 kg/ha
+- Pseudomonas fluorescens (bacterial antagonist)
+
+BOTANICAL:
+- Neem-based products (Azadirachtin 0.03% @ 2.5 L/ha)
+- NSKE (Neem Seed Kernel Extract @ 5%)
+- Pongamia oil @ 2%
+
+STEP 4: CHEMICAL CONTROL (Last Resort)
+-------------------------------------
+PRINCIPLES:
+1. Use only when ETL is crossed
+2. Choose least toxic, target-specific insecticide
+3. Rotate insecticides (different modes of action)
+4. Follow recommended dose
+5. Apply at right time (pest stage, time of day)
+
+APPLICATION TIMING:
+- Early morning (6-10 AM) or evening (4-6 PM)
+- Avoid midday (high temperature reduces efficacy)
+- No spraying before rain (wash off)
+
+SPRAYING TECHNIQUE:
+- Water volume: 500 liters/ha
+- Thorough coverage (especially lower leaf surface)
+- Use proper nozzle
+- Maintain spray pressure
+
+SAFETY:
+- Wear protective equipment (mask, gloves)
+- Don't eat/smoke during spraying
+- Bathe after spraying
+- Observe pre-harvest interval (PHI)
+
+================================================================================
+SECTION 4: INSECTICIDE RESISTANCE MANAGEMENT (IRM)
+================================================================================
+
+WHY IRM IS IMPORTANT:
+- Repeated use of same insecticide → resistance
+- Leads to control failure
+- Requires higher doses (unsafe)
+
+IRM STRATEGIES:
+
+1. ROTATE INSECTICIDES (Different Groups):
+   - Group 1 (Organophosphates): Chlorpyriphos, Profenophos
+   - Group 2 (Carbamates): Carbofuran, Cartap
+   - Group 3 (Pyrethroids): Cypermethrin, Lambda-cyhalothrin
+   - Group 4 (Neonicotinoids): Imidacloprid, Thiamethoxam
+   - Group 5 (Spinosyns): Spinosad
+   - Group 28 (Diamides): Chlorantraniliprole, Flubendiamide
+   
+   **Use different groups in rotation**
+
+2. AVOID CONSECUTIVE APPLICATIONS:
+   - Don't spray same insecticide 2-3 times consecutively
+   - Switch to different mode of action
+
+3. TANK MIXES:
+   - Mix insecticides from different groups
+   - Example: Contact + Systemic
+
+4. REFUGE STRATEGY (for Bt Cotton):
+   - Plant 20% non-Bt cotton as refuge
+   - Delays resistance development
+
+================================================================================
+SECTION 5: NATURAL ENEMY CONSERVATION
+================================================================================
+
+KEY PREDATORS:
+- Spiders: Rice, cotton (general predators)
+- Ladybird Beetles: Aphids, whitefly nymphs
+- Chrysoperla: Eggs and young larvae of pests
+- Mirid Bugs: BPH, WBPH nymphs
+- Ground Beetles: Cutworms, soil-dwelling larvae
+
+KEY PARASITOIDS:
+- Trichogramma spp.: Egg parasitoid of bollworms, borers
+- Bracon spp.: Larval parasitoid of stem borer
+- Apanteles spp.: Larval parasitoid of leaf folder
+
+HOW TO CONSERVE:
+1. Avoid broad-spectrum insecticides
+2. Plant border crops (marigold, maize) - provide habitat
+3. Maintain flowering plants (nectar source)
+4. Allow some weeds (harbor beneficial insects)
+5. Use selective insecticides if needed
+
+================================================================================
+SECTION 6: ECONOMIC THRESHOLD LEVEL (ETL) CONCEPT
+================================================================================
+
+WHAT IS ETL?
+The pest density at which control measures should be initiated to prevent economic damage.
+
+WHY ETL?
+- Prevents unnecessary spraying
+- Reduces cost
+- Protects natural enemies
+- Prevents resistance development
+
+EXAMPLE ETLs:
+Crop         Pest                ETL
+-----        ----                ---
+Paddy        Stem Borer          5% dead hearts
+Paddy        BPH                 10-15 hoppers/plant
+Cotton       Bollworm            1-2 larvae/plant or 8-10% damage
+Cotton       Whitefly            5-10 adults/leaf
+Groundnut    Leaf miner          2 mines/leaf
+Maize        Fall Armyworm       5% plants with whorl damage
+
+**Don't spray below ETL - waste of money and harmful to environment**
+
+================================================================================
+SECTION 7: PESTICIDE SAFETY & PRECAUTIONS
+================================================================================
+
+BEFORE USE:
+- Read label carefully
+- Check expiry date
+- Use recommended dose
+
+DURING USE:
+- Wear protective clothing (mask, gloves, full sleeves)
+- Mix in open space (good ventilation)
+- Don't eat/drink/smoke
+- Spray in calm weather (no wind)
+
+AFTER USE:
+- Bathe with soap
+- Wash clothes separately
+- Store pesticides in locked cupboard
+- Keep away from children, food, fodder
+
+DISPOSAL:
+- Don't throw containers in water bodies
+- Triple rinse empty containers
+- Bury or hand over to authorized recyclers
+
+IN CASE OF POISONING:
+- Remove contaminated clothing
+- Wash with plenty of water
+- Seek medical help immediately
+- Carry pesticide label/container to doctor
+
+**Helpline:** Poison Control: 1066 or nearest hospital
+
+================================================================================
+SECTION 8: CONTACT & SUPPORT
+================================================================================
+
+FOR IPM TRAINING:
+- KVK (Krishi Vigyan Kendra): District-wise
+- ATMA: Extension services
+- Central Integrated Pest Management Centres (CIPMCs)
+
+FOR PEST SURVEILLANCE & ADVISORY:
+- Rythu Seva Kendram (RSK): Mandal-level
+- Pest Surveillance Units: District Agriculture Office
+- Plant Protection Officers: District/State level
+
+FOR BIOLOGICAL CONTROL AGENTS:
+- Government Bio-control Labs
+- Private bio-pesticide companies
+
+DIGITAL RESOURCES:
+- Plantix App: AI-based pest/disease identification
+- mKisan Portal: SMS-based pest alerts
+
+HELPLINES:
+- Agriculture Department: 1800-425-1551
+- Plant Protection: Contact District Agriculture Office
+
+================================================================================
+REMEMBER - THE IPM MANTRA:
+================================================================================
+
+✓ Prevention is better than cure
+✓ Monitor regularly, spray only when needed (at ETL)
+✓ Conserve natural enemies (your unpaid helpers!)
+✓ Use chemicals as last resort
+✓ Follow safety precautions always
+✓ IPM is sustainable, economical, and eco-friendly
+
+**"Healthy Soil → Healthy Crops → Less Pests"**
+
+================================================================================
+Document Prepared: 2024
+Reference: NCIPM (National Centre for Integrated Pest Management), New Delhi
+Directorate of Plant Protection, AP
+================================================================================
+

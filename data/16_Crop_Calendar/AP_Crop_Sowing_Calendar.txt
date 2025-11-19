@@ -1,0 +1,153 @@
+ANDHRA PRADESH - CROP SOWING CALENDAR (Quick Reference)
+======================================================
+
+SEASON CLASSIFICATION:
+---------------------
+- KHARIF (Monsoon): June-November
+- RABI (Winter): November-March  
+- SUMMER: February-June
+
+MAJOR CROPS - SOWING & HARVESTING SCHEDULE:
+==========================================
+
+CEREALS:
+--------
+PADDY:
+  Kharif: Sow June-July → Harvest Nov-Dec (135-150 days)
+  Rabi: Sow Nov-Dec → Harvest March-April (120-135 days)
+  Summer: Sow Jan-Feb → Harvest May-June (110-120 days)
+
+MAIZE:
+  Kharif: Sow June-July → Harvest Oct-Nov (90-110 days)
+  Rabi: Sow Oct-Nov → Harvest Feb-March (90-100 days)
+
+JOWAR:
+  Kharif: Sow June-July → Harvest Oct-Nov (110-120 days)
+  Rabi: Sow Sept-Oct → Harvest Jan-Feb (100-110 days)
+
+PULSES:
+-------
+TUR/ARHAR (Red Gram):
+  Kharif: Sow June-July → Harvest Dec-Feb (150-180 days)
+
+GREENGRAM:
+  Kharif: Sow June-July → Harvest Sept-Oct (60-75 days)
+  Summer: Sow Feb-March → Harvest April-May (60-70 days)
+
+BLACKGRAM:
+  Kharif: Sow June-July → Harvest Sept-Oct (70-90 days)
+  Rabi: Sow Oct-Nov → Harvest Jan-Feb (80-90 days)
+
+BENGAL GRAM (Chana):
+  Rabi: Sow Oct-Nov → Harvest Feb-March (100-120 days)
+
+OILSEEDS:
+---------
+GROUNDNUT:
+  Kharif: Sow June-July → Harvest Oct-Nov (105-120 days)
+  Rabi: Sow Oct-Nov → Harvest Jan-Feb (100-110 days)
+  Summer: Sow Jan-Feb → Harvest April-May (95-105 days)
+
+SUNFLOWER:
+  Kharif: Sow June-July → Harvest Sept-Oct (85-95 days)
+  Rabi: Sow Oct-Nov → Harvest Jan-Feb (90-100 days)
+
+CASTOR:
+  Kharif: Sow June-July → Harvest Oct-Dec (150-180 days, 3-4 pickings)
+
+CASH CROPS:
+-----------
+COTTON:
+  Kharif: Sow June-July → Pickings Oct-April (150-180 days)
+  First Picking: 140-150 DAS
+  Last Picking: 200-210 DAS (4-6 pickings total)
+
+SUGARCANE:
+  Adsali: Plant July-Aug → Harvest Dec-Feb next year (15-18 months)
+  Pre-seasonal: Plant Oct-Nov → Harvest Dec-March (12-14 months)
+  Seasonal: Plant Jan-March → Harvest Dec-March next year (12 months)
+
+CHILLI:
+  Kharif: Sow May-June → Harvest Oct-Feb (140-150 days)
+  Rabi: Sow Aug-Sept → Harvest Jan-April (130-140 days)
+
+TURMERIC:
+  Planting: May-June → Harvesting: Feb-March (8-9 months)
+
+VEGETABLES (Season-wise):
+========================
+
+KHARIF VEGETABLES (June-July sowing):
+- Okra, Brinjal, Chilli, Tomato
+- Ridge Gourd, Bitter Gourd, Bottle Gourd, Pumpkin
+
+RABI VEGETABLES (Sept-Nov sowing):
+- Tomato, Cabbage, Cauliflower
+- Onion, Carrot, Radish, Beans, Peas
+
+SUMMER VEGETABLES (Jan-Feb sowing):
+- Cucumber, Watermelon, Muskmelon, Ash Gourd
+
+DISTRICT-WISE CROPPING PATTERN:
+===============================
+
+COASTAL ANDHRA (Krishna, Godavari):
+  Kharif: Paddy, Maize, Pulses
+  Rabi: Paddy, Pulses
+  Summer: Paddy, Groundnut, Watermelon
+  Perennial: Sugarcane, Coconut, Banana
+
+RAYALASEEMA (Anantapur, Kurnool, Kadapa):
+  Kharif: Groundnut, Cotton, Jowar, Bajra, Redgram
+  Rabi: Groundnut, Bengal Gram, Sunflower
+  Summer: Groundnut, Watermelon
+  Perennial: Mango
+
+NORTH COASTAL (Visakhapatnam, Vizianagaram):
+  Kharif: Paddy, Maize, Ragi, Pulses
+  Rabi: Paddy, Pulses
+  Perennial: Cashew, Mango
+
+INTERCROPPING SYSTEMS:
+=====================
+- Cotton + Red gram (2:1 or 3:1)
+- Cotton + Greengram (2:2)
+- Cotton + Groundnut (2:2)
+- Groundnut + Red gram (4:2)
+- Castor + Greengram (1:2)
+
+CROP ROTATION (Irrigated):
+==========================
+Pattern 1: Paddy → Paddy → Greengram
+Pattern 2: Paddy → Blackgram → Paddy
+Pattern 3: Kharif Groundnut → Rabi Bengal Gram → Summer Greengram
+
+CRITICAL REMINDERS:
+==================
+✓ Sowing dates depend on monsoon onset - adjust accordingly
+✓ Use certified seeds from authorized dealers
+✓ Register crop in E-Panta (mandatory for schemes)
+✓ Get crop insured within cutoff dates
+✓ Follow recommended varieties for your region
+✓ Soil testing every 2-3 years
+
+WEATHER-BASED ADJUSTMENTS:
+=========================
+- MONSOON DELAY: Use short-duration varieties, delay sowing
+- EXCESS RAINFALL: Ensure proper drainage
+- MID-SEASON DROUGHT: Life-saving irrigation at critical stages
+- CYCLONE ALERT: Harvest mature crops before cyclone
+
+SUPPORT CONTACTS:
+================
+- Rythu Seva Kendram (RSK): Mandal-level advice
+- Agro-met Advisory: Weather-based advisories
+- KVK (Krishi Vigyan Kendra): Training and demos
+- Helpline: 1800-425-1551
+- Website: apagrisnet.ap.gov.in
+
+For detailed crop-wise calendars, contact:
+- District Agriculture Office
+- Regional Agricultural Research Station (RARS)
+- ANGRAU Extension Centers
+

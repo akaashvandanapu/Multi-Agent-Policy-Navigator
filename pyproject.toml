@@ -1,0 +1,44 @@
+[project]
+name = "policy-navigator"
+version = "1.0.0"
+description = "Multi-agent system for agricultural policy navigation using CrewAI"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    # Core Framework
+    "crewai>=0.28.0,<1.0.0",
+    "crewai-tools>=0.1.0,<1.0.0",
+    # LLM Providers
+    "openai>=1.35.0,<2.0.0",
+    "groq>=0.9.0,<1.0.0",
+    "litellm>=1.43.0,<2.0.0",
+    "google-generativeai>=0.6.0,<1.0.0",
+    # RAG & Vector Store
+    "chromadb>=0.5.0,<2.0.0",
+    "sentence-transformers>=2.2.0,<3.0.0",
+    # Data Processing
+    "pydantic>=2.6.0,<3.0.0",
+    "PyPDF2>=3.0.0,<4.0.0",
+    "pypdf>=3.0.0,<5.0.0",
+    "PyYAML>=6.0.0,<7.0.0",
+    # Web Search APIs
+    "requests>=2.31.0,<3.0.0",
+    "httpx>=0.24.0,<1.0.0",  # Required for Ollama Web Search MCP server
+    # ADK Integration (Google Agent Development Kit)
+    # google-cloud-aiplatform>=1.38.0,<2.0.0,  # Not used - only needed for Vertex AI, we use google.generativeai
+    # MCP Integration
+    # Note: fastmcp requires mcp>=1.19.0,<2.0.0,!=1.21.1 - fastmcp will install compatible mcp version
+    "fastmcp>=0.1.0,<3.0.0",  # FastMCP framework (installs compatible mcp version)
+    "mcp>=1.19.0,<2.0.0,!=1.21.1",  # MCP library required for CrewAI MCP integration
+    # Web Framework (for API)
+    "flask>=2.0.0,<4.0.0",
+    "flask-cors>=3.0.10,<5.0.0",
+    # Utilities
+    "python-dotenv>=1.0.0,<2.0.0",
+    "tenacity>=8.2.0,<9.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

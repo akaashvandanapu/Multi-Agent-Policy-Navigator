@@ -1,0 +1,124 @@
+COTTON CULTIVATION GUIDE - ANDHRA PRADESH
+=========================================
+
+NOTE: For official research publications, contact:
+- Central Institute for Cotton Research (CICR), Nagpur
+- Regional Agricultural Research Station (RARS), AP
+- Department of Agriculture, AP
+
+BASIC INFORMATION:
+-----------------
+- Season: Kharif (June-April) - 150-180 days
+- Major Districts: Kurnool, Anantapur, Kadapa, Prakasam
+- Average Yield: 18-22 quintals/ha (rainfed), 24-28 quintals/ha (irrigated)
+
+POPULAR BT COTTON VARIETIES:
+----------------------------
+Short Duration (150-160 days): RCH 2 Bt, Bunny Bt, JK Ishwar
+Medium Duration (160-170 days): RCH 650 BGII, Mallika Bt
+Long Duration (170-180 days): RCH 791 (ELS), Ankur 3028
+
+CULTIVATION STEPS:
+-----------------
+1. LAND PREPARATION: Deep summer ploughing (20-25 cm)
+2. SEED TREATMENT: Fungicide + Insecticide + Bio-fertilizer
+3. SOWING: Dibbling, 2-3 seeds per hill
+4. SPACING: 90cm x 60cm (rainfed), 120cm x 60cm (irrigated)
+5. THINNING: 15-20 days, retain 1-2 plants/hill
+
+FERTILIZER MANAGEMENT (Bt Cotton - Irrigated):
+--------------------------------------------
+NPK: 150:75:75 kg/ha
+Basal: 25% N + Full P&K + FYM 5-10 tonnes/ha
+Top Dressing: 
+  - 1st (30-35 DAS): 25% N
+  - 2nd (60-65 DAS): 25% N
+  - 3rd (90 DAS): 25% N
+
+MAJOR PESTS & MANAGEMENT:
+------------------------
+1. AMERICAN BOLLWORM: 
+   - Pheromone traps, NPV, Emamectin benzoate
+   - ETL: 8-10% damaged squares/bolls
+
+2. PINK BOLLWORM:
+   - CRITICAL: Destroy crop residues after harvest
+   - Pheromone traps (15/ha), Thiodicarb
+   - ETL: 10% rosette flowers
+
+3. WHITEFLY:
+   - Yellow sticky traps, Spiromesifen
+   - Avoid excess nitrogen
+   - ETL: 5-10 adults/leaf
+
+4. JASSIDS:
+   - Thiamethoxam, Acetamiprid
+   - ETL: 1-2 nymphs/leaf
+
+INTEGRATED PEST MANAGEMENT (IPM):
+---------------------------------
+- Pheromone traps: 10-15/ha
+- Light traps: 1/ha
+- Border crops: Marigold (trap crop)
+- Refuge planting: 20% non-Bt cotton (IRM strategy)
+- Biological control: Chrysoperla, Trichogramma
+
+MAJOR DISEASES:
+--------------
+- Wilt: Crop rotation, resistant varieties, Trichoderma
+- Bacterial Blight: Streptocycline + Copper oxychloride
+- Grey Mildew: Sulfur dust
+
+IRRIGATION:
+----------
+Critical Stages: 
+  - Square formation (40-45 DAS)
+  - Flowering (65-70 DAS)
+  - Boll development (90-95 DAS)
+
+Drip Irrigation: Recommended, 40-50% water saving
+  - Subsidy: 55% for small/marginal farmers under PMKSY
+
+PICKING:
+-------
+- Number of pickings: 4-6 (at 15-20 day intervals)
+- Time: Morning hours (avoid moisture)
+- First picking: 140-150 DAS
+- Last picking: 200-210 DAS
+
+ECONOMIC ANALYSIS (Rainfed Bt Cotton):
+-------------------------------------
+Cost of Cultivation: Rs. 45,000-50,000/ha
+Expected Yield: 15 quintals/ha
+MSP (2024): Rs. 7,121/quintal (Medium Staple)
+Gross Income: Rs. 1,06,815/ha
+Net Profit: Rs. 55,000-65,000/ha
+
+MARKETING:
+---------
+- Cotton Corporation of India (CCI): MSP procurement
+- Private traders: Open market
+- E-Panta registration: Mandatory for MSP
+- Grading: Grade I (clean, white) gets best price
+
+IMPORTANT REMINDERS:
+-------------------
+✓ Use only certified Bt cotton seeds (check trait authenticity)
+✓ Destroy crop residues immediately after harvest (pink bollworm management)
+✓ Maintain refuge area (20% non-Bt) for IRM
+✓ Avoid monocropping - rotate with non-cotton crops
+✓ Register crop in E-Panta for MSP procurement
+✓ Get crop insured under PMFBY
+
+SUPPORT & CONTACTS:
+------------------
+- Rythu Seva Kendram (RSK): Mandal level
+- Cotton Specialists: District Agriculture Office
+- Helpline: 1800-3000-2244 (CCI)
+- Website: apagrisnet.ap.gov.in
+
+For detailed scientific practices, contact:
+- CICR (Central Institute for Cotton Research), Nagpur
+- Regional Cotton Research Station
+- ICAR Extension Centers
+

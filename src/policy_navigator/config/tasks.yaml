@@ -1,0 +1,530 @@
+# CrewAI Tasks Configuration
+# All 6 tasks defined following CrewAI YAML format
+# Variables like {user_query} will be replaced with actual values during execution
+
+query_analysis_task:
+  description: |
+    Analyze the user's query: "{user_query}"
+    
+    PDF file path (if provided): "{pdf_file_path}"
+    
+    STEP 1 - SCOPE VALIDATION (MANDATORY FIRST STEP):
+    FIRST, determine if the query is related to agriculture, farming, crops, policies, schemes, pest management, 
+    or market information. Use your LLM reasoning to analyze the query content.
+    
+    If the query is completely unrelated to agriculture (e.g., technology, sports, entertainment, general knowledge, 
+    weather forecasts, news, etc.), then:
+    - Set is_out_of_scope = True
+    - Set query_type = "out_of_scope"
+    - Set required_agents = ["response_synthesizer"]  # ONLY synthesizer, skip all other steps
+    - Set region_type = "ap" (default, not used for out-of-scope queries)
+    - Set detected_regions = ["Andhra Pradesh"] (default, not used for out-of-scope queries)
+    - Set is_ap_query = True (default, not used for out-of-scope queries)
+    - Skip all remaining steps (STEP 2 through STEP 5) and go directly to STEP 6 (SET OUTPUT FIELDS)
+    
+    If the query IS related to agriculture, farming, crops, policies, schemes, pests, or markets:
+    - Set is_out_of_scope = False
+    - Continue to STEP 2 (Region Detection)
+    
+    STEP 2 - REGION DETECTION (ONLY IF IN SCOPE):
+    If the query is in scope (is_out_of_scope = False), you MUST use the region_detector_tool to detect if the query 
+    mentions Andhra Pradesh or other regions.
+    Call region_detector_tool with the user query and parse the JSON response to get:
+    - is_ap_region: boolean indicating if query is about AP
+    - detected_regions: list of all detected regions (will include "Andhra Pradesh" if no region is mentioned)
+    - region_type: "ap", "non_ap", or "mixed" (defaults to "ap" if no region is mentioned)
+    - ap_regions: list of AP regions found (will include "Andhra Pradesh" if no region is mentioned)
+    - non_ap_regions: list of non-AP regions found
+    
+    IMPORTANT: If no region is detected in the query, the tool defaults to Andhra Pradesh.
+    In this case, region_type will be "ap" and "Andhra Pradesh" will be in ap_regions and detected_regions.
+    
+    STEP 3 - QUERY CLASSIFICATION (ONLY IF IN SCOPE):
+    If the query is in scope (is_out_of_scope = False), classify the query type based on the query content.
+    
+    CRITICAL FIRST CHECK - PDF FILE DETECTION (HIGHEST PRIORITY):
+    BEFORE classifying based on query text, you MUST check if a PDF file path is provided:
+    - Look at the "PDF file path (if provided): {pdf_file_path}" field above
+    - If pdf_file_path is provided and NOT empty (not "" or "None"), you MUST:
+      * Set query_type = "document_upload" (this takes PRIORITY over all other classifications)
+      * Skip the query text classification below
+      * Go directly to STEP 5 (Agent Assignment)
+    
+    If NO PDF file path is provided (pdf_file_path is empty, "", or "None"), then classify based on query content:
+    - "policy" for policy/scheme related queries
+    - "cultivation" for crop cultivation guidance
+    - "pest" for pest/disease management
+    - "market" for market prices, MSP, weather
+    - "general" for other agricultural queries that don't fit the above categories
+    
+    STEP 4 - ENTITY EXTRACTION (ONLY IF IN SCOPE):
+    If the query is in scope (is_out_of_scope = False), extract key entities:
+    - Crop names (e.g., paddy, maize, cotton, groundnut, redgram)
+    - Scheme names (e.g., PM-KISAN, PMFBY, KCC)
+    - Locations (e.g., Andhra Pradesh, specific districts)
+    - Pests or diseases mentioned
+    - If non-AP regions detected, add them to entities["region_limitation"]
+    
+    STEP 5 - AGENT ASSIGNMENT (ONLY IF IN SCOPE, CRITICAL - MUST SET required_agents CORRECTLY):
+    If the query is in scope (is_out_of_scope = False), determine which specialized agents should handle this query 
+    and ALWAYS set required_agents as a list.
+    
+    RULES FOR SETTING required_agents:
+    1. ALWAYS include "response_synthesizer" in required_agents (it synthesizes the final response)
+    
+    2. If query_type is "document_upload": 
+       required_agents = ["pdf_processor_agent", "response_synthesizer"]
+       # CRITICAL: Use "pdf_processor_agent" (not "pdf_processor") to match the actual agent ID
+    
+    3. If region_type is "non_ap" or "mixed": 
+       required_agents = ["non_ap_researcher", "response_synthesizer"]
+       # For non-AP regions, use Ollama Web Search MCP instead of RAG tools
+    
+    4. If region_type is "ap" (includes default when no region is mentioned):
+       Based on query_type, ALWAYS include the corresponding agent:
+       - If query_type is "policy": required_agents = ["policy_researcher", "response_synthesizer"]
+       - If query_type is "cultivation": required_agents = ["crop_specialist", "response_synthesizer"]
+       - If query_type is "pest": required_agents = ["pest_advisor", "response_synthesizer"]
+       - If query_type is "market": required_agents = ["market_analyst", "response_synthesizer"]
+       - If query_type is "general": required_agents = ["response_synthesizer"]  # Or include relevant agents
+    
+    NOTE: If query is out of scope (is_out_of_scope = True), this step was already handled in STEP 1 
+    where required_agents = ["response_synthesizer"] was set.
+    
+    EXAMPLES:
+    - Query: "What is the weather today?"
+      → STEP 1: is_out_of_scope = True (not related to agriculture)
+      → query_type = "out_of_scope"
+      → required_agents = ["response_synthesizer"]
+      → Skip all remaining steps
+    
+    - Query: "Control measures for fall armyworm in maize"
+      → STEP 1: is_out_of_scope = False (related to agriculture - pest management)
+      → STEP 2: region_type = "ap" (no specific region mentioned, defaults to AP)
+      → STEP 3: query_type = "pest" (pest management query)
+      → STEP 5: required_agents = ["pest_advisor", "response_synthesizer"]
+    
+    - Query: "PM-KISAN scheme benefits"
+      → STEP 1: is_out_of_scope = False (related to agriculture - policy/scheme)
+      → STEP 2: region_type = "ap" (defaults to AP when no region mentioned)
+      → STEP 3: query_type = "policy" (policy/scheme query)
+      → STEP 5: required_agents = ["policy_researcher", "response_synthesizer"]
+    
+    - Query: "How to grow paddy in Karnataka"
+      → STEP 1: is_out_of_scope = False (related to agriculture - cultivation)
+      → STEP 2: region_type = "non_ap" (Karnataka is not AP)
+      → STEP 3: query_type = "cultivation" (cultivation guidance)
+      → STEP 5: required_agents = ["non_ap_researcher", "response_synthesizer"]
+    
+    - Query: "Summarize this agricultural policy document" with pdf_file_path = "C:\path\to\file.pdf"
+      → STEP 1: is_out_of_scope = False (related to agriculture)
+      → STEP 2: region_type = "ap" (defaults to AP when no region mentioned)
+      → STEP 3: CRITICAL FIRST CHECK - pdf_file_path is provided and not empty
+      → STEP 3: query_type = "document_upload" (PDF file detected - takes PRIORITY)
+      → STEP 5: required_agents = ["pdf_processor_agent", "response_synthesizer"]
+      → IMPORTANT: Skip query text classification since PDF file path takes priority
+    
+    CRITICAL: You MUST set required_agents as a list containing the agent IDs. The conditional tasks check if their agent ID is in this list.
+    
+    STEP 6 - SET OUTPUT FIELDS:
+    Set all output fields based on the analysis:
+    
+    For OUT-OF-SCOPE queries (is_out_of_scope = True):
+    - Set is_out_of_scope = True
+    - Set query_type = "out_of_scope"
+    - Set required_agents = ["response_synthesizer"]
+    - Set region_type = "ap" (default, not used)
+    - Set detected_regions = ["Andhra Pradesh"] (default, not used)
+    - Set is_ap_query = True (default, not used)
+    - Set entities = {} (empty, not used)
+    
+    For IN-SCOPE queries (is_out_of_scope = False):
+    - Set is_out_of_scope = False
+    - Set query_type = (from STEP 3 classification)
+    - Set required_agents = (from STEP 5 agent assignment)
+    - Set is_ap_query: True if region_type is "ap", False if "non_ap" or "mixed"
+    - Set detected_regions: list of all detected regions from region_detector_tool (will include "Andhra Pradesh" if no region was mentioned)
+    - Set region_type: "ap", "non_ap", or "mixed" from region_detector_tool (defaults to "ap" if no region mentioned)
+    - Set entities: (from STEP 4 entity extraction)
+    
+    IMPORTANT RULES:
+    - ALWAYS check scope FIRST (STEP 1) before doing region detection
+    - If query is out of scope, skip region detection and set required_agents to only ["response_synthesizer"]
+    - If pdf_file_path is provided and not empty, classify as "document_upload"
+    - If non-AP region detected, use non_ap_researcher with Ollama Web Search MCP instead of RAG tools
+    
+    Be thorough and precise in your analysis.
+  expected_output: |
+    A structured analysis with:
+    - Query type classification (including "out_of_scope" if applicable)
+    - is_ap_query: boolean indicating if query is about AP
+    - detected_regions: list of all detected regions
+    - region_type: "ap", "non_ap", or "mixed" (defaults to "ap" if no region mentioned)
+    - is_out_of_scope: boolean indicating if query is non-agricultural
+    - All extracted entities organized by category (including region_limitation if non-AP)
+    - Complexity assessment
+    - List of required agents (only response_synthesizer if out_of_scope)
+    - Context requirement flag
+  agent: query_analyzer
+
+pdf_processing_task:
+  description: |
+    Extract and analyze the uploaded PDF document located at: "{pdf_file_path}"
+    
+    As a CrewAI agent with PDF MCP tool, you have access to PDF reading capabilities.
+    
+    Your task is to:
+    1. Use the PDF MCP tool (pdf_mcp_read_file) to extract all text content from the PDF
+    2. Generate a comprehensive summary of the document focusing on agricultural policies and AP-related content
+    3. Identify key information: schemes, policies, crops, subsidies, eligibility criteria, application procedures
+    4. Answer any questions about the PDF content based on the user query: "{user_query}"
+    5. If the PDF is related to agriculture and AP policies, note that it will be added to the RAG system for future queries
+    
+    Use the PDF MCP tool to read the file at the provided path, then analyze and summarize the content.
+    Focus on extracting actionable information for farmers and policy researchers.
+  expected_output: |
+    A structured PDF analysis with:
+    - Full extracted text
+    - Structured data (tables, key-value pairs, lists)
+    - Answers to questions (if any)
+    - Document summary
+    - Confidence score (0.0-1.0)
+    - File name and page count
+  agent: pdf_processor_agent
+  context:
+    - query_analysis_task
+
+calculation_task:
+  description: |
+    Perform agricultural calculations based on query requirements and context from query_analysis_task.
+    
+    As an ADK agent, you use Google Generative AI to perform accurate calculations.
+    
+    Determine what type of calculation is needed:
+    - "cost_estimation": Calculate total cost of cultivation (requires area, crop, optional inputs)
+    - "yield_calculation": Calculate expected yield (requires area, crop, optional variety)
+    - "subsidy_calculation": Calculate subsidy amount (requires scheme, area, crop)
+    - "profit_calculation": Calculate profit from revenue and cost (requires revenue, cost)
+    
+    Extract calculation parameters from:
+    1. query_analysis_task output (entities, query_type)
+    2. User query if area, crop, or other values are mentioned
+    3. Context from other tasks if available
+    
+    Perform the appropriate calculation and provide detailed results with breakdown.
+  expected_output: |
+    A formatted calculation result string with:
+    - Operation type
+    - Input parameters
+    - Calculation steps
+    - Final result with detailed breakdown
+    - All values clearly labeled
+  agent: calculator_agent
+  context:
+    - query_analysis_task
+
+policy_research_task:
+  description: |
+    Based on the query analysis, retrieve and explain relevant agricultural policies and schemes.
+    
+    Use the RAG tool to search policy documents and provide comprehensive information about:
+    - Scheme name and description
+    - Eligibility criteria
+    - Benefits provided
+    - Step-by-step application process
+    - Required documents
+    - Contact information (if available)
+    
+    Focus on the most relevant scheme(s) based on the query. If multiple schemes are found,
+    prioritize the one most directly related to the user's question.
+    
+    Always cite source documents and provide a confidence score based on the completeness
+    of information found.
+  expected_output: |
+    A comprehensive policy response with:
+    - Scheme name and detailed description
+    - Complete eligibility criteria
+    - All benefits listed
+    - Clear application process
+    - Required documents
+    - Contact information
+    - Source documents cited
+    - Confidence score (0.0-1.0)
+  agent: policy_researcher
+  context:
+    - query_analysis_task
+
+crop_guidance_task:
+  description: |
+    Provide comprehensive crop cultivation guidance based on the query analysis.
+    
+    Use the RAG tool to search crop cultivation guides.
+    Provide detailed information about:
+    - Recommended varieties with descriptions
+    - Sowing details (timing, spacing, seed rate)
+    - Stage-wise fertilizer schedule
+    - Irrigation schedule
+    - Best practices for cultivation
+    - Economics (expected yield, cost of cultivation, expected profit)
+    
+    If a specific location is mentioned, provide region-specific guidance.
+    If calculation results are available from calculation_task context, use them for economics information.
+  expected_output: |
+    A comprehensive crop guidance response with:
+    - Crop name
+    - List of recommended varieties with descriptions
+    - Complete sowing details
+    - Detailed fertilizer schedule by growth stage
+    - Irrigation timing and frequency
+    - Best practices list
+    - Economics breakdown (yield, cost, profit)
+  agent: crop_specialist
+  context:
+    - query_analysis_task
+    - calculation_task
+
+pest_management_task:
+  description: |
+    Identify pests and diseases, and provide comprehensive Integrated Pest Management (IPM) strategies.
+    
+    Use the RAG tool to retrieve pest management data and provide:
+    - Pest/disease identification with symptoms
+    - Affected plant parts and severity assessment
+    - Control measures:
+      * Cultural practices
+      * Biological control agents
+      * Chemical control options with specific dosages
+    - Prevention methods
+    - Safe period after chemical application
+    - Estimated yield loss if not controlled
+    
+    Prioritize eco-friendly solutions and always include safety precautions.
+  expected_output: |
+    A comprehensive pest management response with:
+    - Pest/disease name
+    - Symptoms and affected parts
+    - Severity level
+    - Complete control measures (cultural, biological, chemical)
+    - Prevention methods
+    - Safe period in days
+    - Estimated yield loss
+  agent: pest_advisor
+  context:
+    - query_analysis_task
+
+market_info_task:
+  description: |
+    Fetch current real-time information based on the query analysis.
+    
+    ⚠️ CRITICAL REQUIREMENT - YOU MUST USE OLLAMA WEB SEARCH MCP TOOL ⚠️
+    
+    STEP 1 - VERIFY TOOL AVAILABILITY:
+    First, check what tools are available to you. You should have access to Ollama Web Search MCP tools.
+    Look for tools with names "web_search" or "web_fetch".
+    The Ollama Web Search MCP provides two tools: "web_search" (for searching) and "web_fetch" (for fetching specific URLs).
+    
+    STEP 2 - MANDATORY TOOL USAGE:
+    You MUST call the Ollama Web Search MCP tool (web_search) BEFORE generating any answer. This is NOT optional.
+    
+    DO NOT:
+    - Generate information from your training data
+    - Make up prices, MSP values, or dates
+    - Provide information without calling the search tool first
+    
+    DO:
+    - First, call the web_search tool with a search query
+    - Use the actual search results from the tool response
+    - Base your answer ONLY on the tool results
+    - Include source URLs from the tool results
+    
+    STEP 3 - SEARCH QUERY:
+    Create a specific search query for the Ollama Web Search MCP tool. For the query "{user_query}", search for:
+    - Current Minimum Support Price (MSP) for the crop mentioned
+    - Latest market prices
+    - Recent weather conditions
+    - Government announcements related to the query
+    
+    Example search query: "current MSP for [crop] India 2024" or "latest market price [crop] India"
+    
+    STEP 4 - USE TOOL RESULTS:
+    After calling the web_search tool:
+    - Extract information from the tool's response
+    - Use the URLs provided by the tool
+    - Use the dates/timestamps from the tool results
+    - Do NOT add information that wasn't in the tool results
+    
+    STEP 5 - FORMAT RESPONSE:
+    Structure your response using ONLY the information from the Ollama Web Search MCP tool:
+    - info_type: "msp", "market_price", "weather", or "announcement"
+    - crop_name: From the query
+    - location: From the query or tool results
+    - data: Extract from tool results (current_msp, current_market_price, weather_conditions, etc.)
+    - last_updated: Use timestamp from tool results
+    - sources: Use URLs from tool results
+    - reliability_score: Based on quality of sources found
+    
+    REMINDER: If you cannot find or call the Ollama Web Search MCP tool, you MUST indicate this in your response
+    and explain that real-time data is not available. Do NOT generate fake data.
+  expected_output: |
+    A comprehensive market information response with:
+    - Information type (MSP, weather, market_price, announcement)
+    - Relevant data fields
+    - Last updated timestamp
+    - Source URLs
+    - Reliability score (0.0-1.0)
+  agent: market_analyst
+  context:
+    - query_analysis_task
+    - calculation_task
+
+non_ap_research_task:
+  description: |
+    Search the web for agricultural information about non-AP regions based on the query analysis.
+    
+    IMPORTANT: This task handles queries about regions outside of Andhra Pradesh. All data you find 
+    will be from web searches, NOT from the local database. You must clearly indicate this in your output.
+    
+    ⚠️ CRITICAL REQUIREMENT - YOU MUST USE OLLAMA WEB SEARCH MCP TOOL ⚠️
+    
+    STEP 1 - VERIFY TOOL AVAILABILITY:
+    First, check what tools are available to you. You should have access to Ollama Web Search MCP tools.
+    Look for tools with names "web_search" or "web_fetch".
+    The Ollama Web Search MCP provides two tools: "web_search" (for searching) and "web_fetch" (for fetching specific URLs).
+    
+    STEP 2 - MANDATORY TOOL USAGE:
+    You MUST call the Ollama Web Search MCP tool (web_search) BEFORE generating any answer. This is NOT optional.
+    
+    DO NOT:
+    - Generate information from your training data
+    - Make up information about non-AP regions
+    - Provide information without calling the search tool first
+    
+    DO:
+    - First, call the web_search tool with a search query for the non-AP region
+    - Use the actual search results from the tool response
+    - Base your answer ONLY on the tool results
+    - Include source URLs from the tool results
+    
+    STEP 3 - SEARCH QUERY:
+    Create a specific search query for the Ollama Web Search MCP tool. For the query "{user_query}" about the detected non-AP region(s):
+    - If query_type is "policy": Search for policy/scheme information for that region
+    - If query_type is "cultivation": Search for crop cultivation guidance for that region
+    - If query_type is "pest": Search for pest/disease management for that region
+    - If query_type is "market": Search for market prices, MSP, weather for that region
+    - If query_type is "general": Search for general agricultural information for that region
+    
+    Example: "agricultural policies [region]" or "crop cultivation [crop] [region]"
+    
+    STEP 4 - USE TOOL RESULTS:
+    After calling the web_search tool:
+    - Extract information from the tool's response
+    - Structure the search results clearly in the search_results field
+    - Use the URLs provided by the tool
+    - Identify if market-related information (MSP, prices, weather) is found
+    - If market-related information is found, set recommend_market_analyst to True and populate market_related_info
+    
+    STEP 5 - FORMAT RESPONSE:
+    Structure your response using ONLY the information from the Ollama Web Search MCP tool:
+    - data_source: "web_searched" (always)
+    - query_type: From query analysis
+    - region: Detected non-AP region(s)
+    - search_results: Structured information from tool results
+    - recommend_market_analyst: True if market info found, False otherwise
+    - market_related_info: Market findings if recommend_market_analyst is True
+    - sources: URLs from tool results
+    - confidence_score: Based on quality of tool results
+    - disclaimer: "The following information has been obtained through Ollama Web Search MCP and is not from our local database. Please verify the information from official sources."
+    
+    REMINDER: If you cannot find or call the Ollama Web Search MCP tool, you MUST indicate this in your response
+    and explain that web search data is not available. Do NOT generate fake data.
+  expected_output: |
+    A comprehensive web search response with:
+    - data_source: "web_searched" (always)
+    - query_type: Type of query being researched
+    - region: Detected non-AP region(s)
+    - search_results: Structured information found from web search
+    - recommend_market_analyst: Boolean indicating if market_analyst should be called
+    - market_related_info: Market-related findings if recommend_market_analyst is True
+    - sources: List of all source URLs
+    - confidence_score: Reliability score (0.0-1.0)
+    - disclaimer: Clear text indicating data is web-searched, not from local database
+  agent: non_ap_researcher
+  context:
+    - query_analysis_task
+
+synthesis_task:
+  description: |
+    Synthesize a comprehensive, well-structured final response from outputs of all specialized agents.
+    
+    STEP 1 - CHECK QUERY SCOPE:
+    - Check query_analysis_task output for is_out_of_scope flag
+    - If is_out_of_scope is True:
+      * Set is_out_of_scope=True in your output
+      * Create a simple, concise plain text response (100+ characters) explaining the query is out of scope
+      * Set response_markdown to None (do not create markdown)
+      * Set follow_up_questions to empty list []
+      * Set sources to empty list []
+      * You're done - skip all other steps
+    
+    STEP 2 - CHECK FOR NON-AP REGION:
+    - Check query_analysis_task output for region_type
+    - If region_type is "non_ap" or "mixed":
+      * Check if non_ap_research_task output exists
+      * If it exists, START your response with: "Non-AP region detected. My expertise is in Andhra Pradesh, but I can help you using Ollama Web Search MCP."
+      * Use ONLY the non_ap_research_task output for your response (do not use RAG-based agents for non-AP)
+      * Include the disclaimer from non_ap_research_task output
+      * All information should come from Ollama Web Search MCP results, not local database
+    
+    STEP 3 - HANDLE MARKET ANALYST RECOMMENDATION:
+    - If non_ap_research_task output exists and has recommend_market_analyst=True:
+      * Include market_info_task output if available
+      * Note that market-related information was found via Ollama Web Search MCP
+    
+    STEP 4 - CREATE RESPONSE STRUCTURE:
+    For in-scope queries (is_out_of_scope=False):
+    1. Create a plain text summary (minimum 100 characters, no markdown)
+    2. Create a detailed markdown response with clean structure:
+       - Start with # Main Title (query topic)
+       - Use ## Section headers for main content (no "Section:" prefix, just the topic)
+       - Use ### for subsections only when needed
+       - Use bullet lists for multiple items
+       - DO NOT repeat sections - each section appears only once
+       - Structure: Title → Main Content → Sources (if any) → Follow-up Questions (if any)
+    3. Clearly distinguish between:
+       - Data from local database (policy_researcher, crop_specialist, pest_advisor outputs)
+       - Data from Ollama Web Search MCP (non_ap_research_task output)
+    4. Include disclaimer when Ollama Web Search MCP data is used
+    5. Compile all sources (both local documents and web URLs) - list them ONCE in a single "Sources" section
+    6. Generate 2-3 relevant follow-up questions - list them ONCE in a single "Follow-up Questions" section
+    7. Calculate overall confidence score
+    8. Summarize agent contributions (noting which used local data vs Ollama Web Search MCP)
+    
+    IMPORTANT FORMATTING RULES:
+    - Do NOT create duplicate sections (Sources, Follow-up Questions appear only once)
+    - Do NOT include "Section:" prefix in headers - use clean headers like "## Recommended Crops" not "## Section: Recommended Crops"
+    - For non-AP queries, emphasize that data is from Ollama Web Search MCP
+    - Keep the markdown clean and well-structured without repetition
+    
+    Ensure the response directly answers the user's query and is easy to understand for farmers.
+  expected_output: |
+    A comprehensive final response with:
+    - is_out_of_scope: True only if query is out of scope
+    - Plain text summary (100+ characters, no markdown)
+    - response_markdown: Detailed markdown (required for in-scope, None for out-of-scope)
+    - Clean structure without duplicate sections
+    - Clear distinction between local database data and Ollama Web Search MCP results
+    - Disclaimer when Ollama Web Search MCP data is used
+    - Sources listed once (empty for out-of-scope)
+    - Follow-up questions listed once (empty for out-of-scope)
+    - Overall confidence score
+    - Agent contributions summary
+  agent: response_synthesizer
+  context:
+    - query_analysis_task
+    - pdf_processing_task
+    - policy_research_task
+    - crop_guidance_task
+    - pest_management_task
+    - market_info_task
+    - non_ap_research_task
+

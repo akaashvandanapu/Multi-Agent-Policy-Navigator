@@ -1,0 +1,203 @@
+{
+  "project": "Policy Navigator - Multi-Agent Chatbot System",
+  "state": "Andhra Pradesh",
+  "date_created": "2025-11-15",
+  "total_documents": 22,
+  "categories": {
+    "01_Financial_Schemes": {
+      "name": "Financial Schemes",
+      "folder": "01_Financial_Schemes",
+      "document_count": 1,
+      "documents": [
+        {
+          "filename": "PM_KISAN_Scheme.pdf",
+          "size_kb": 960.63,
+          "path": "01_Financial_Schemes/PM_KISAN_Scheme.pdf"
+        }
+      ]
+    },
+    "02_Credit_Loans": {
+      "name": "Credit Loans",
+      "folder": "02_Credit_Loans",
+      "document_count": 1,
+      "documents": [
+        {
+          "filename": "Kisan_Credit_Card_KCC_Scheme.pdf",
+          "size_kb": 4.37,
+          "path": "02_Credit_Loans/Kisan_Credit_Card_KCC_Scheme.pdf"
+        }
+      ]
+    },
+    "03_Crop_Insurance": {
+      "name": "Crop Insurance",
+      "folder": "03_Crop_Insurance",
+      "document_count": 1,
+      "documents": [
+        {
+          "filename": "PMFBY_RWBCIS_Crop_Insurance.pdf",
+          "size_kb": 584.38,
+          "path": "03_Crop_Insurance/PMFBY_RWBCIS_Crop_Insurance.pdf"
+        }
+      ]
+    },
+    "04_Seeds_Inputs": {
+      "name": "Seeds Inputs",
+      "folder": "04_Seeds_Inputs",
+      "document_count": 3,
+      "documents": [
+        {
+          "filename": "NFSNM_Seed_Components.pdf",
+          "size_kb": 99.83,
+          "path": "04_Seeds_Inputs/NFSNM_Seed_Components.pdf"
+        },
+        {
+          "filename": "State_Seed_Farms.pdf",
+          "size_kb": 208.93,
+          "path": "04_Seeds_Inputs/State_Seed_Farms.pdf"
+        },
+        {
+          "filename": "Subsidy_Seed_Distribution.pdf",
+          "size_kb": 196.49,
+          "path": "04_Seeds_Inputs/Subsidy_Seed_Distribution.pdf"
+        }
+      ]
+    },
+    "05_Irrigation_Water": {
+      "name": "Irrigation Water",
+      "folder": "05_Irrigation_Water",
+      "document_count": 2,
+      "documents": [
+        {
+          "filename": "PMKSY_Micro_Irrigation_Scheme.pdf",
+          "size_kb": 8.03,
+          "path": "05_Irrigation_Water/PMKSY_Micro_Irrigation_Scheme.pdf"
+        },
+        {
+          "filename": "PMRKVY_Rainfed_Area_Development.pdf",
+          "size_kb": 201.88,
+          "path": "05_Irrigation_Water/PMRKVY_Rainfed_Area_Development.pdf"
+        }
+      ]
+    },
+    "06_Soil_Health": {
+      "name": "Soil Health",
+      "folder": "06_Soil_Health",
+      "document_count": 2,
+      "documents": [
+        {
+          "filename": "Fertilizer_Supply_Distribution.pdf",
+          "size_kb": 631.83,
+          "path": "06_Soil_Health/Fertilizer_Supply_Distribution.pdf"
+        },
+        {
+          "filename": "Soil_Health_Management_NMSHF.pdf",
+          "size_kb": 130.35,
+          "path": "06_Soil_Health/Soil_Health_Management_NMSHF.pdf"
+        }
+      ]
+    },
+    "07_Farm_Mechanization": {
+      "name": "Farm Mechanization",
+      "folder": "07_Farm_Mechanization",
+      "document_count": 1,
+      "documents": [
+        {
+          "filename": "Farm_Mechanization.pdf",
+          "size_kb": 181.6,
+          "path": "07_Farm_Mechanization/Farm_Mechanization.pdf"
+        }
+      ]
+    },
+    "08_Market_Pricing": {
+      "name": "Market Pricing",
+      "folder": "08_Market_Pricing",
+      "document_count": 2,
+      "documents": [
+        {
+          "filename": "Farmer_Producer_Organizations_FPO.pdf",
+          "size_kb": 13.44,
+          "path": "08_Market_Pricing/Farmer_Producer_Organizations_FPO.pdf"
+        },
+        {
+          "filename": "MSP_Procurement_Policy.pdf",
+          "size_kb": 7.93,
+          "path": "08_Market_Pricing/MSP_Procurement_Policy.pdf"
+        }
+      ]
+    },
+    "09_Horticulture_Allied": {
+      "name": "Horticulture Allied",
+      "folder": "09_Horticulture_Allied",
+      "document_count": 2,
+      "documents": [
+        {
+          "filename": "Horticulture_Development_Schemes.pdf",
+          "size_kb": 10.77,
+          "path": "09_Horticulture_Allied/Horticulture_Development_Schemes.pdf"
+        },
+        {
+          "filename": "Organic_Farming_PKVY_Scheme.pdf",
+          "size_kb": 11.29,
+          "path": "09_Horticulture_Allied/Organic_Farming_PKVY_Scheme.pdf"
+        }
+      ]
+    },
+    "10_Extension_Training": {
+      "name": "Extension Training",
+      "folder": "10_Extension_Training",
+      "document_count": 3,
+      "documents": [
+        {
+          "filename": "ATMA_Agricultural_Extension.pdf",
+          "size_kb": 142.92,
+          "path": "10_Extension_Training/ATMA_Agricultural_Extension.pdf"
+        },
+        {
+          "filename": "GAP_Polambadi_IndGAP_Certification.pdf",
+          "size_kb": 93.1,
+          "path": "10_Extension_Training/GAP_Polambadi_IndGAP_Certification.pdf"
+        },
+        {
+          "filename": "Rythu_Seva_Kendralu_RSK.pdf",
+          "size_kb": 134.59,
+          "path": "10_Extension_Training/Rythu_Seva_Kendralu_RSK.pdf"
+        }
+      ]
+    },
+    "11_Digital_Initiatives": {
+      "name": "Digital Initiatives",
+      "folder": "11_Digital_Initiatives",
+      "document_count": 3,
+      "documents": [
+        {
+          "filename": "E_Panta_Digital_Crop_Registration.pdf",
+          "size_kb": 176.29,
+          "path": "11_Digital_Initiatives/E_Panta_Digital_Crop_Registration.pdf"
+        },
+        {
+          "filename": "InSight_Quality_Control_App.pdf",
+          "size_kb": 163.89,
+          "path": "11_Digital_Initiatives/InSight_Quality_Control_App.pdf"
+        },
+        {
+          "filename": "Integrated_Agri_Labs.pdf",
+          "size_kb": 254.56,
+          "path": "11_Digital_Initiatives/Integrated_Agri_Labs.pdf"
+        }
+      ]
+    },
+    "12_Calamity_Relief": {
+      "name": "Calamity Relief",
+      "folder": "12_Calamity_Relief",
+      "document_count": 1,
+      "documents": [
+        {
+          "filename": "Natural_Calamities_Input_Subsidy.pdf",
+          "size_kb": 194.91,
+          "path": "12_Calamity_Relief/Natural_Calamities_Input_Subsidy.pdf"
+        }
+      ]
+    }
+  },
+  "archived_documents": 1
+}

@@ -1,0 +1,391 @@
+GROUNDNUT (PEANUT) CULTIVATION GUIDE - ANDHRA PRADESH
+=====================================================
+
+NOTE: For official publications, contact:
+- ICAR-Directorate of Groundnut Research, Junagadh
+- ICRISAT, Hyderabad
+- Regional Agricultural Research Station, AP
+
+BASIC INFORMATION:
+-----------------
+Groundnut is a major oilseed crop in Andhra Pradesh, especially in Rayalaseema region.
+Area: 6-7 lakh hectares | Average Yield: 1,500-2,000 kg/ha
+
+MAJOR DISTRICTS: Anantapur, Kadapa, Kurnool, Chittoor
+
+CROP SEASONS:
+------------
+KHARIF: June-July sowing → October-November harvest (105-120 days)
+RABI: October-November sowing → January-February harvest (100-110 days)
+SUMMER: January-February sowing → April-May harvest (95-105 days)
+
+POPULAR VARIETIES:
+-----------------
+KHARIF (Bunch type):
+- TMV 13: 105-110 days, 25-30 q/ha, rainfed
+- Kadiri 9: 105-110 days, 28-32 q/ha, rust resistant
+- ICGV 91114: 100-105 days, 30-35 q/ha, drought tolerant
+
+RABI/SUMMER (Spreading type):
+- TMV 2: 120-125 days, 35-40 q/ha, Virginia type
+- Kadiri 3: 115-120 days, 32-38 q/ha, large pods
+- Narayani: 110-115 days, 35-40 q/ha, bold pods
+
+SOIL REQUIREMENTS:
+-----------------
+Best: Sandy loam, red sandy soils
+pH: 6.0-7.0 (slightly acidic to neutral)
+Depth: 45-60 cm (deep-rooted crop)
+Drainage: Essential (waterlogging is fatal)
+Avoid: Heavy clay soils, saline soils
+
+LAND PREPARATION:
+----------------
+1. Summer ploughing in May (for Kharif crop)
+2. 2-3 harrowing after first rain
+3. Leveling for uniform germination
+4. Ridges and furrows (60 cm apart) for rainfed areas
+5. Flat beds for irrigated areas
+
+SEED REQUIREMENTS:
+-----------------
+Bunch types: 75-80 kg/ha (25-30 kg/acre)
+Spreading types: 100-120 kg/ha (40-50 kg/acre)
+Use bold, healthy seeds from previous season
+
+SEED TREATMENT (Mandatory):
+--------------------------
+1. Shell manually (avoid damage to seeds)
+2. Fungicide: Thiram @ 3 gm/kg seed
+3. Insecticide: Imidacloprid @ 5 gm/kg seed
+4. Rhizobium culture @ 25 gm/kg seed (for N fixation)
+5. PSB (Phosphate Solubilizing Bacteria) @ 25 gm/kg
+
+SOWING METHOD:
+-------------
+Method: Dibbling or seed drill
+Depth: 5-7 cm (not too deep, not shallow)
+Spacing:
+  - Bunch types: 30 cm x 10 cm or 22.5 cm x 10 cm
+  - Spreading types: 45 cm x 15 cm
+
+Seeds per hill: 1-2 (single seed is ideal)
+
+IRRIGATION:
+----------
+Critical Stages (MUST irrigate if no rain):
+1. Flowering stage (30-40 DAS)
+2. Pegging stage (50-60 DAS) - MOST CRITICAL
+3. Pod development (70-80 DAS)
+
+Total water requirement: 500-600 mm
+
+Schedule:
+- Pre-sowing irrigation (if soil is dry)
+- First irrigation: 20-25 DAS
+- Subsequently: 10-15 day interval depending on soil moisture
+
+Drip Irrigation:
+- Highly recommended for summer groundnut
+- 40-50% water saving
+- Subsidy: 55% for small/marginal farmers under PMKSY
+- Apply 4 liters/plant/day
+
+FERTILIZER MANAGEMENT:
+---------------------
+NPK: 20-25:60:50 kg/ha
+(Low N because it's a legume - fixes its own nitrogen)
+
+CRITICAL: Gypsum 400-500 kg/ha at flowering (35-40 DAS)
+Why? Provides Calcium and Sulphur - essential for pod filling
+
+APPLICATION SCHEDULE:
+Basal (At sowing):
+  - Full NPK (Urea 43 kg + SSP 375 kg + MOP 83 kg/ha)
+  - FYM: 5-7 tonnes/ha (2 weeks before sowing)
+  - If using DAP, don't use SSP (provides both N and P)
+
+AT FLOWERING (35-40 DAS):
+  - GYPSUM: 400-500 kg/ha (MANDATORY - broadcast and mix)
+  - This is THE MOST IMPORTANT fertilizer application
+  - Directly affects pod filling and oil content
+
+Foliar Spray:
+  - 2% DAP at flowering and pod development
+  - Boron 0.2% (prevents hollow heart)
+  - Helps in pod filling
+
+WEED MANAGEMENT:
+---------------
+Critical Period: First 30-40 days
+
+Cultural:
+- Hand weeding at 20 and 40 DAS
+- Inter-cultivation with blade harrow
+- Mulching with crop residues
+
+Chemical:
+Pre-emergence (within 2-3 days of sowing):
+  - Pendimethalin 30 EC @ 3.3 liters/ha
+  - Imazethapyr 10 SL @ 1 liter/ha
+
+Post-emergence (20 DAS):
+  - Quizalofop ethyl 5 EC @ 1 liter/ha (for grasses)
+  - Hand weeding is safer
+
+PEST MANAGEMENT:
+---------------
+Major Pests:
+
+1. LEAF MINER (Aproaerema modicella):
+   Damage: Serpentine mines on leaves
+   Control: Profenophos 50 EC @ 2 ml/liter
+   
+2. TOBACCO CATERPILLAR (Spodoptera litura):
+   Damage: Defoliation
+   Control: NPV @ 250 LE/ha or Emamectin benzoate @ 300 gm/ha
+   
+3. APHIDS (Aphis craccivora):
+   Damage: Leaf curling, rosette disease vector
+   Control: Imidacloprid 17.8 SL @ 200 ml/ha
+   ETL: 10-15 aphids/plant
+
+4. THRIPS (Scirtothrips dorsalis):
+   Damage: Leaf browning, silvering
+   Control: Fipronil 5 SC @ 2 ml/liter
+
+5. TERMITES (Odontotermes spp.):
+   Damage: Seed/pod damage
+   Control: Seed treatment with Imidacloprid or
+           Chlorpyriphos 20 EC @ 5 liters/ha (soil drench)
+
+6. WHITE GRUBS (Holotrichia consanguinea):
+   Damage: Root damage
+   Control: Chlorpyriphos 20 EC @ 5 liters/ha
+
+DISEASE MANAGEMENT:
+------------------
+Major Diseases:
+
+1. TIKKA DISEASE (Early & Late Leaf Spot):
+   Caused by: Cercospora arachidicola & Phaeoisariopsis personata
+   Symptoms: Circular brown spots with yellow halo
+   Control: 
+     - Resistant varieties (Kadiri 9)
+     - Mancozeb 75 WP @ 2.5 kg/ha (3 sprays at 15-day interval)
+     - Carbendazim 50 WP @ 500 gm/ha
+     - Start spraying from 30 DAS
+
+2. RUST (Puccinia arachidis):
+   Symptoms: Orange pustules on lower leaf surface
+   Control:
+     - Resistant varieties (TMV 13)
+     - Sulfur dust @ 25 kg/ha
+     - Tebuconazole 25.9 EC @ 1 ml/liter
+
+3. STEM ROT (Sclerotium rolfsii):
+   Symptoms: Wilting, collar region rotting
+   Control:
+     - Crop rotation
+     - Trichoderma viride @ 10 gm/kg seed treatment
+     - Carbendazim 50 WP @ 1 gm/liter (soil drench)
+
+4. COLLAR ROT (Aspergillus niger):
+   Symptoms: Black discoloration at collar region
+   Control:
+     - Seed treatment with Thiram
+     - Avoid waterlogging
+
+5. BUD NECROSIS DISEASE (Virus):
+   Symptoms: Necrotic spots on leaves, stunting
+   Vector: Thrips
+   Control:
+     - Control thrips with Imidacloprid
+     - Remove and destroy infected plants
+
+6. AFLATOXIN CONTAMINATION:
+   Prevention:
+     - Harvest at right maturity (don't delay)
+     - Dry immediately after harvest
+     - Store at 10% moisture or less
+     - Avoid contact with soil during drying
+
+HARVESTING:
+----------
+Maturity Indices:
+- 80% of pods show brown/black veins inside shell
+- Leaves turn yellowish and start shedding
+- Kernel skin turns pink (for TMV varieties)
+- 100-120 days for Kharif, 95-110 days for Rabi/Summer
+
+Method:
+1. Stop irrigation 10-15 days before harvest
+2. Pull out plants manually (early morning preferred)
+3. Shake off excess soil
+4. Stack in windrows with pods facing one direction
+5. Leave in field for 2-3 days for curing
+
+DO NOT delay harvesting - leads to:
+  - Germination in soil (if rains occur)
+  - Pod rot
+  - Aflatoxin contamination
+  - Shattering and loss
+
+THRESHING & DRYING:
+------------------
+Threshing:
+- Manual beating with sticks OR
+- Mechanical thresher (95% efficiency)
+- Separate pods from haulms
+
+Drying:
+- Spread pods in thin layer on pucca floor
+- Sun drying for 4-5 days
+- Target moisture: 8-10% for storage
+- Turn pods 2-3 times daily
+
+Storage:
+- Store in gunny bags in dry, well-ventilated place
+- Check moisture periodically
+- Use neem leaves to prevent storage pests
+
+HAULM (Stalks):
+- Good cattle feed (protein-rich)
+- Dry and store
+- Additional income: Rs. 1,000-2,000/acre
+
+ECONOMICS (Per Hectare):
+-----------------------
+KHARIF RAINFED:
+Cost of Cultivation: Rs. 25,000-30,000
+  - Seeds: Rs. 6,000-8,000
+  - Land preparation: Rs. 3,000
+  - Fertilizers: Rs. 5,000
+  - Gypsum: Rs. 2,000
+  - Plant protection: Rs. 3,000-5,000
+  - Weeding: Rs. 3,000
+  - Harvesting: Rs. 3,000-4,000
+
+Expected Yield: 12-15 quintals/ha (rainfed), 18-22 q/ha (irrigated)
+Market Price: Rs. 5,500-6,500/quintal (varies with oil content)
+Gross Income: Rs. 66,000-97,500
+Net Profit: Rs. 35,000-65,000/ha
+
+BONUS INCOME:
+- Haulm (fodder): Rs. 5,000-8,000/ha
+- Total: Rs. 40,000-73,000/ha
+
+SUMMER IRRIGATED (Best profits):
+Cost: Rs. 35,000-40,000/ha (higher irrigation cost)
+Yield: 20-25 quintals/ha
+Income: Rs. 1,10,000-1,62,500
+Net Profit: Rs. 70,000-1,20,000/ha
+
+INTERCROPPING:
+-------------
+Common Systems:
+1. Groundnut + Redgram (4:2) - Risk mitigation
+2. Groundnut + Castor (2:1) - In rainfed areas
+3. Coconut + Groundnut - As intercrop in young orchards
+
+Benefits:
+- Additional income from intercrop
+- Risk reduction in drought years
+- Better land utilization
+
+CROP ROTATION:
+-------------
+Recommended:
+Year 1: Groundnut → Year 2: Cereals (Jowar/Bajra) → Year 3: Pulses
+OR
+Kharif Groundnut → Rabi Bengal Gram → Summer Greengram
+
+Avoid: Continuous groundnut cultivation (disease buildup)
+
+QUALITY PARAMETERS:
+------------------
+For Good Market Price:
+- Sound Mature Kernels (SMK): >70%
+- Oil content: >48%
+- Free from aflatoxin
+- Moisture: <10%
+- Uniform size (bold pods preferred)
+- Clean (free from soil, stones)
+
+GOVERNMENT SUPPORT:
+------------------
+1. MSP: Announced annually (Check current year rates)
+2. Crop Insurance: PMFBY - Enroll within 2 weeks of sowing
+3. Subsidy: Seeds available at 50% subsidy
+4. Credit: KCC for input purchase at 4% effective interest
+5. E-Panta: Register crop for accessing schemes
+
+MARKETING:
+---------
+Options:
+1. Direct to oil mills (nearby)
+2. Through commission agents in regulated markets
+3. NAFED procurement (if price falls below MSP)
+4. Farmer Producer Organizations (FPO) - better price
+
+Market Arrival: October-November (Kharif), February-March (Rabi)
+
+COMMON PROBLEMS & SOLUTIONS:
+---------------------------
+Problem 1: Poor Pod Filling
+Cause: Lack of Calcium/Sulphur
+Solution: Apply Gypsum @ 400-500 kg/ha at flowering (mandatory)
+
+Problem 2: Leaf Spots (Tikka Disease)
+Cause: Fungal infection, high humidity
+Solution: Mancozeb spray at 30, 45, 60 DAS
+
+Problem 3: Aphid Infestation
+Cause: Dry weather, vector of rosette disease
+Solution: Imidacloprid spray immediately when noticed
+
+Problem 4: Germination Failure
+Cause: Deep sowing, seed quality, soil crusting
+Solution: Sow at 5-7 cm depth, use quality seeds, light irrigation
+
+Problem 5: Yellowing of Leaves
+Cause: Iron deficiency (in alkaline soils) or nitrogen deficiency
+Solution: FeSO4 0.5% spray or 2% Urea spray
+
+BEST PRACTICES FOR HIGH YIELD:
+-----------------------------
+1. Use certified seeds of recommended varieties
+2. Mandatory seed treatment (fungicide + insecticide + Rhizobium)
+3. Timely sowing (first fortnight of June for Kharif)
+4. Maintain proper spacing (don't crowd plants)
+5. GYPSUM APPLICATION IS MUST - never skip
+6. Irrigate at critical stages (flowering, pegging, pod development)
+7. Control tikka disease with 3 fungicide sprays
+8. Harvest at right maturity (don't delay)
+9. Dry to 8-10% moisture before storage
+10. Crop rotation (avoid continuous groundnut)
+
+SUPPORT & CONTACTS:
+------------------
+- Rythu Seva Kendram (RSK): Mandal-level guidance
+- Oil mill associations: Market information
+- NAFED: MSP procurement
+- Helpline: 1800-425-1551
+- Website: apagrisnet.ap.gov.in
+
+For research-based information:
+- ICAR-DGR (Directorate of Groundnut Research), Junagadh
+- ICRISAT, Hyderabad
+- Regional Agricultural Research Stations, AP
+- ANGRAU Extension Centers
+
+REMEMBER:
+✓ Groundnut needs Ca & S more than N
+✓ Gypsum is the secret to good yield
+✓ Control tikka disease early
+✓ Harvest on time (don't delay)
+✓ Proper drying prevents aflatoxin
+✓ Summer groundnut gives best profits
+
+"Gypsum at Flowering = Good Pod Filling = High Yield!"
+

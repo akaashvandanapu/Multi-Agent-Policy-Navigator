@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Policy Navigator</title>
+	<link rel="stylesheet" href="/static/styles.css">
+	<!-- Cytoscape for mindmap -->
+	<script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+</head>
+<body>
+	<header class="app-header">
+		<div class="brand">
+			<span class="logo">🌾</span>
+			<span class="title">Policy Navigator</span>
+		</div>
+	</header>
+
+	<main class="layout">
+		<section class="panel chat-panel glass">
+			<div class="examples">
+				<button class="chip" onclick="sendExample('What is PM-KISAN and how do I apply?')">PM-KISAN</button>
+				<button class="chip" onclick="sendExample('How to grow paddy rice in Andhra Pradesh?')">Paddy cultivation</button>
+				<button class="chip" onclick="sendExample('Control measures for fall armyworm in maize')">Fall armyworm</button>
+				<button class="chip" onclick="sendExample('Current MSP for wheat')">MSP for wheat</button>
+			</div>
+
+			<div id="messages" class="messages scroll">
+				<div class="msg assistant">
+					<div class="meta">Policy Navigator</div>
+					<div class="content">
+						Welcome! Ask about policies, cultivation, pests, or market pricing.
+					</div>
+				</div>
+			</div>
+
+			<div id="loading" class="loading">Processing your query through multi‑agent pipeline…</div>
+
+			<div class="composer">
+				<input id="queryInput" type="text" placeholder="Ask about agricultural policies, cultivation, pests, or markets…" onkeypress="if(event.key==='Enter') sendQuery()">
+				<button id="sendBtn" onclick="sendQuery()">Send</button>
+			</div>
+		</section>
+
+		<aside class="panel side-panel glass">
+			<div class="card">
+				<div class="card-title">System Status</div>
+				<div class="kv">
+					<div>Backend API</div><div id="apiStatus" class="ok">Checking…</div>
+				</div>
+				<div class="kv"><div>Active Agents</div><div>7</div></div>
+				<div class="kv"><div>Available Tools</div><div>4</div></div>
+			</div>
+
+			<div class="card">
+				<div class="card-title">Agents</div>
+				<ul class="list">
+					<li>1. Query Understanding (CrewAI)</li>
+					<li>2. Policy Retrieval (CrewAI)</li>
+					<li>3. Realtime Info (CrewAI)</li>
+					<li>4. Pest Management (CrewAI)</li>
+					<li>5. Crop Cultivation (ADK)</li>
+					<li>6. Doc Verification (ADK)</li>
+					<li>7. Response Synthesis (CrewAI)</li>
+				</ul>
+			</div>
+
+			<div class="card">
+				<div class="card-title">Requirements Met</div>
+				<ul class="list">
+					<li>Agent-to-Agent Communication</li>
+					<li>Multi-tool Coordination</li>
+					<li>Structured Output (Pydantic)</li>
+					<li>Task Monitoring</li>
+					<li>CrewAI & ADK Integration</li>
+					<li>Context Sharing</li>
+				</ul>
+			</div>
+
+			<div class="card mindmap-card">
+				<div class="card-title">Execution Mindmap</div>
+				<div id="mindmap"></div>
+			</div>
+		</aside>
+	</main>
+
+	<script src="/static/app.js"></script>
+</body>
+</html>
