@@ -12,93 +12,200 @@ A comprehensive multi-agent system built with CrewAI for navigating agricultural
 - **A2A Communication**: ADK integration for calculator agent
 - **Monitoring & Logging**: Comprehensive callbacks for tracking execution
 
-## System Architecture Workflow
+## System Architecture
 
-The following diagram illustrates the system architecture and workflow:
+The following diagram shows the complete project architecture and agent flow:
+
+![Project Mind Map](images/project-mindmap.png)
+
+## Complete System Workflow Diagram
+
+The following diagram illustrates the complete workflow from user input to final response:
 
 ```
-┌─────────────────────┐
-│  User Query Input   │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ MainOrchestrator    │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ PolicyNavigatorCrew │
-│   (CrewAI Framework)│
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Query Analyzer Agent │
-└──────────┬──────────┘
-           │
-           ▼
-    ┌──────┴──────┐
-    │   Query    │
-    │  Analysis  │
-    │  & Routing │
-    └───┬───┬────┘
-        │   │   │   │   │   │   │
-    ┌───┘   └───┐   └───┐   └───┐
-    │           │       │       │
-    ▼           ▼       ▼       ▼
-┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
-│ Policy  │ │  Crop   │ │  Pest   │ │ Market  │
-│Researcher│ │Specialist│ │ Advisor │ │ Analyst │
-└────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘
-     │           │           │           │
-     └───────────┴───────────┴───────────┘
-                 │
-        ┌─────────┴─────────┐
-        │                     │
-        ▼                     ▼
-┌─────────────┐      ┌─────────────┐
-│ Non-AP      │      │    PDF      │
-│ Researcher  │      │  Processor  │
-└──────┬──────┘      └──────┬──────┘
-       │                     │
-       └──────────┬──────────┘
-                  │
-        ┌─────────┴─────────┐
-        │                     │
-        ▼                     ▼
-┌─────────────┐      ┌─────────────┐
-│ Calculator  │      │Execution    │
-│ Agent (ADK) │      │Tracker      │
-└──────┬──────┘      └──────┬──────┘
-       │                     │
-       └──────────┬──────────┘
-                  │
-                  ▼
-        ┌──────────────────┐
-        │ Response         │
-        │ Synthesizer      │
-        └────────┬─────────┘
-                 │
-                 ▼
-        ┌──────────────────┐
-        │ Final Response   │
-        │     Output       │
-        └──────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           USER QUERY INPUT                                   │
+│                    (Text Query + Optional PDF File)                         │
+└───────────────────────────────┬─────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        MAIN ORCHESTRATOR                                     │
+│  - Initializes CrewAI Crew                                                  │
+│  - Manages Workflow Execution                                               │
+│  - Handles PDF Upload Processing                                            │
+└───────────────────────────────┬─────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    POLICY NAVIGATOR CREW                                     │
+│                    (CrewAI Framework)                                        │
+│  - Agent Coordination                                                        │
+│  - Task Orchestration                                                        │
+│  - Memory Management                                                         │
+└───────────────────────────────┬─────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    QUERY ANALYZER AGENT                                     │
+│                    (Always Executes First)                                   │
+│                                                                               │
+│  STEP 1: Scope Validation                                                    │
+│    ├─ Agricultural? → Continue                                               │
+│    └─ Out of Scope? → Route to Synthesizer Only                             │
+│                                                                               │
+│  STEP 2: Region Detection (Region Detector Tool)                             │
+│    ├─ AP Region → Use RAG                                                   │
+│    ├─ Non-AP Region → Use Web Search                                         │
+│    └─ Mixed → Use Web Search                                                  │
+│                                                                               │
+│  STEP 3: Query Classification                                               │
+│    ├─ Policy / Cultivation / Pest / Market / General                         │
+│    └─ Document Upload (if PDF provided)                                       │
+│                                                                               │
+│  STEP 4: Entity Extraction                                                    │
+│    └─ Crops, Schemes, Locations, Pests                                      │
+│                                                                               │
+│  STEP 5: Agent Assignment                                                    │
+│    └─ Generates required_agents list                                         │
+│                                                                               │
+│  OUTPUT: QueryAnalysis (Pydantic Model)                                      │
+└───────────────────────────────┬─────────────────────────────────────────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │  Execution Tracker    │
+                    │  (Stores Query Analysis)│
+                    └───────────┬───────────┘
+                                │
+        ┌───────────────────────┴───────────────────────┐
+        │                                               │
+        ▼                                               ▼
+┌───────────────────────┐                  ┌───────────────────────┐
+│  CONDITIONAL TASK     │                  │  CONDITIONAL TASK     │
+│  EXECUTION            │                  │  EXECUTION            │
+│  (Based on            │                  │  (Based on            │
+│   required_agents)    │                  │   required_agents)    │
+└───────┬───────────────┘                  └───────┬───────────────┘
+        │                                           │
+        │                                           │
+┌───────┴───────┐                      ┌──────────┴──────────┐
+│               │                      │                      │
+▼               ▼                      ▼                      ▼
+┌───────────────┐ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐
+│   POLICY      │ │    CROP       │ │    PEST       │ │    MARKET     │
+│  RESEARCHER   │ │  SPECIALIST   │ │   ADVISOR     │ │   ANALYST     │
+│               │ │               │ │               │ │               │
+│  Tool: RAG    │ │  Tool: RAG    │ │  Tool: RAG    │ │  Tool: Ollama │
+│  (ChromaDB)   │ │  (ChromaDB)   │ │  (ChromaDB)   │ │  Web Search   │
+│               │ │               │ │               │ │  MCP          │
+│  Output:      │ │  Output:      │ │  Output:      │ │  Output:      │
+│  PolicyResp   │ │  CropGuidance │ │  PestMgmt     │ │  MarketInfo   │
+└───────┬───────┘ └───────┬───────┘ └───────┬───────┘ └───────┬───────┘
+        │                  │                  │                  │
+        └──────────────────┴──────────────────┴──────────────────┘
+                                │
+        ┌───────────────────────┴───────────────────────┐
+        │                                               │
+        ▼                                               ▼
+┌───────────────┐                          ┌───────────────┐
+│   NON-AP     │                          │     PDF       │
+│  RESEARCHER  │                          │   PROCESSOR   │
+│              │                          │               │
+│  Tool: Ollama│                          │  Tool: PDF    │
+│  Web Search  │                          │  MCP Server   │
+│  MCP         │                          │               │
+│              │                          │  Output:      │
+│  Output:     │                          │  PDFAnalysis  │
+│  WebSearchResp│                         │               │
+└───────┬───────┘                          └───────┬───────┘
+        │                                           │
+        └───────────────────┬───────────────────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │   CALCULATOR AGENT    │
+                │      (ADK)            │
+                │                       │
+                │  Tool: Google         │
+                │  Generative AI        │
+                │                       │
+                │  A2A Communication:   │
+                │  StateManager        │
+                │                       │
+                │  Output: Calculation  │
+                │  Results              │
+                └───────────┬───────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │  Execution Tracker    │
+                │  (Aggregates All)     │
+                │                       │
+                │  - Executed Agents    │
+                │  - Used Tools         │
+                │  - Agent-Tool Mapping │
+                └───────────┬───────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │  RESPONSE SYNTHESIZER │
+                │                       │
+                │  - Combines outputs   │
+                │  - Formats markdown   │
+                │  - Adds citations     │
+                │  - Validates content  │
+                │                       │
+                │  Output: FinalResponse│
+                └───────────┬───────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │   FINAL RESPONSE      │
+                │                       │
+                │  - response_text      │
+                │  - response_markdown  │
+                │  - sources            │
+                │  - confidence_score   │
+                │  - workflow_details   │
+                └───────────────────────┘
 
-┌─────────────────────────────────────┐
-│     Infrastructure Layer             │
-├──────────────┬──────────┬───────────┤
-│ ChromaDB     │ MCP      │ Monitoring│
-│ Vector Store │ Servers  │ Callbacks │
-└──────┬───────┴──────┬────┴───────────┘
-       │              │
-       │ (RAG Search) │ (Web Search/PDF)
-       │              │
-       └──────┬────────┘
-              │
-       (Connects to agents above)
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        INFRASTRUCTURE LAYER                                   │
+├──────────────────────┬──────────────────────┬─────────────────────────────────┤
+│                      │                      │                                 │
+│   CHROMADB           │    MCP SERVERS       │    MONITORING                   │
+│   VECTOR STORE       │                      │    CALLBACKS                    │
+│                      │                      │                                 │
+│  - Document Storage  │  - Ollama Web Search │  - step_callback                │
+│  - Embedding Search  │  - PDF Extraction    │  - task_callback                │
+│  - Metadata Filter   │  - FastMCP Protocol  │  - Execution Tracking           │
+│                      │                      │  - Tool Usage Logging           │
+│                      │                      │                                 │
+│  Used by:            │  Used by:            │  Tracks:                        │
+│  - Policy Researcher │  - Market Analyst    │  - All Agents                   │
+│  - Crop Specialist   │  - Non-AP Researcher │  - All Tools                    │
+│  - Pest Advisor      │  - PDF Processor     │  - Execution Flow              │
+│                      │                      │                                 │
+└──────────────────────┴──────────────────────┴─────────────────────────────────┘
+         │                      │                      │
+         │                      │                      │
+         └──────────────────────┴──────────────────────┘
+                                │
+                    (Connected to agents above)
 ```
+
+## Detailed Workflow Steps
+
+1. **User Input**: User submits query (text + optional PDF)
+2. **Orchestration**: MainOrchestrator initializes CrewAI crew
+3. **Query Analysis**: Query Analyzer performs scope validation, region detection, classification, entity extraction, and agent assignment
+4. **Conditional Execution**: Specialized agents execute only if in required_agents list
+5. **Tool Usage**: Agents use appropriate tools (RAG, MCP, ADK) based on query type
+6. **A2A Communication**: ADK agents communicate via StateManager
+7. **Execution Tracking**: All agents and tools tracked by ExecutionTracker
+8. **Response Synthesis**: Synthesizer combines all outputs into final response
+9. **Output**: Structured response with markdown, sources, and workflow details
 
 ## Project Structure
 
@@ -213,6 +320,8 @@ This starts an interactive command-line interface where you can:
 
 ### Web Interface
 
+![Frontend UI](images/frontend-ui.png)
+
 Start the Flask API server:
 - Navigate to `web/api/` directory
 - Run `python app.py` or use Flask's development server
@@ -223,6 +332,7 @@ The web interface provides:
 - PDF upload functionality
 - Real-time agent execution tracking
 - System status monitoring
+- Project mind map visualization
 
 ## MCP Integration
 

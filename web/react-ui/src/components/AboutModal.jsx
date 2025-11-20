@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ProjectMindMap from './ProjectMindMap';
 
 /**
  * AboutModal - Comprehensive information about the Policy Navigator system
@@ -6,6 +7,7 @@ import React, { useState, useEffect } from 'react';
  */
 const AboutModal = ({ isOpen, onClose }) => {
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1024);
+  const [isMindMapOpen, setIsMindMapOpen] = useState(false);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -412,20 +414,49 @@ const AboutModal = ({ isOpen, onClose }) => {
           <h2 style={{ margin: 0, fontSize: '24px', fontWeight: 700, color: 'var(--color-text-primary)' }}>
             About Policy Navigator
           </h2>
-          <button
-            style={closeButtonStyle}
-            onClick={onClose}
-            onMouseEnter={(e) => {
-              e.target.style.backgroundColor = 'var(--color-background-light)';
-              e.target.style.color = 'var(--color-text-primary)';
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.backgroundColor = 'transparent';
-              e.target.style.color = 'var(--color-text-secondary)';
-            }}
-          >
-            ✕
-          </button>
+          <div style={{ display: 'flex', gap: 'var(--spacing-sm)', alignItems: 'center' }}>
+            <button
+              onClick={() => setIsMindMapOpen(true)}
+              style={{
+                padding: '8px 16px',
+                backgroundColor: 'var(--color-primary)',
+                color: '#FFFFFF',
+                border: 'none',
+                borderRadius: 'var(--radius-md)',
+                fontSize: '14px',
+                fontWeight: 600,
+                cursor: 'pointer',
+                transition: 'var(--transition-fast)',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+              }}
+              onMouseEnter={(e) => {
+                e.target.style.backgroundColor = 'var(--color-primary-dark)';
+                e.target.style.transform = 'scale(1.05)';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.backgroundColor = 'var(--color-primary)';
+                e.target.style.transform = 'scale(1)';
+              }}
+            >
+              🗺️ View Mind Map
+            </button>
+            <button
+              style={closeButtonStyle}
+              onClick={onClose}
+              onMouseEnter={(e) => {
+                e.target.style.backgroundColor = 'var(--color-background-light)';
+                e.target.style.color = 'var(--color-text-primary)';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.backgroundColor = 'transparent';
+                e.target.style.color = 'var(--color-text-secondary)';
+              }}
+            >
+              ✕
+            </button>
+          </div>
         </div>
 
         {/* Content */}
@@ -539,6 +570,12 @@ const AboutModal = ({ isOpen, onClose }) => {
           </div>
         </div>
       </div>
+      
+      {/* Project Mind Map Modal */}
+      <ProjectMindMap 
+        isOpen={isMindMapOpen} 
+        onClose={() => setIsMindMapOpen(false)} 
+      />
     </div>
   );
 };
