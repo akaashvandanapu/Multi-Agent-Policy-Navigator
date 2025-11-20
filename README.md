@@ -1,5 +1,7 @@
 # Policy Navigator - Multi-Agent System
 
+📹 **[Watch Project Demo & Description](https://www.loom.com/share/c96b01df32de4ec281d9a174ec43578a)**
+
 A comprehensive multi-agent system built with CrewAI for navigating agricultural policies, crop cultivation guidance, pest management, and real-time market information for farmers in Andhra Pradesh.
 
 ## Features
@@ -209,37 +211,241 @@ The following diagram illustrates the complete workflow from user input to final
 
 ## Project Structure
 
-The project is organized into the following directories:
+Complete project structure with file descriptions:
 
-- **src/policy_navigator/** - Main source code
-  - **crew.py** - Main crew orchestration using CrewAI @CrewBase pattern
-  - **main.py** - Entry point for command-line interface
-  - **config/** - YAML configuration files for agents and tasks
-  - **tools/** - Custom CrewAI tools (RAG, Region Detector, Ollama Web Search)
-  - **models/** - Pydantic schemas for structured outputs
-  - **callbacks/** - Monitoring and execution tracking callbacks
-  - **retrieval/** - RAG infrastructure (ChromaDB vector store, document processor)
-  - **adk/** - ADK integration (Agent Development Kit adapter)
-  - **core/** - Core orchestration logic
-  - **guardrails/** - Hallucination guardrails and validation
+```
+policy-navigator-project/
+│
+├── README.md                          # Project documentation and setup guide
+├── pyproject.toml                     # Python project configuration and dependencies
+├── TEST_QUERIES.md                    # Test queries for system validation
+│
+├── src/policy_navigator/              # Main source code package
+│   ├── __init__.py                    # Package initialization
+│   ├── main.py                        # CLI entry point - handles user queries and PDF uploads
+│   ├── crew.py                        # Main crew orchestration using CrewAI @CrewBase pattern
+│   │
+│   ├── config/                        # Configuration files
+│   │   ├── agents.yaml                # Agent definitions (roles, goals, backstories)
+│   │   ├── tasks.yaml                 # Task definitions and descriptions
+│   │   ├── llm_config.py              # LLM provider configuration (OpenAI, Groq)
+│   │   └── tool_mappings.py           # Maps agents to their tools
+│   │
+│   ├── tools/                         # Custom CrewAI tools
+│   │   ├── __init__.py                # Package initialization
+│   │   ├── rag_tool.py                # RAG tool for ChromaDB document search
+│   │   ├── region_detector.py         # Detects AP vs non-AP regions in queries
+│   │   ├── ollama_websearch_tool.py   # Wrapper for Ollama Web Search MCP
+│   │   ├── pdf_mcp_tool.py            # Wrapper for PDF MCP server
+│   │   └── pdf_domain_validator.py    # Validates PDF content is agricultural
+│   │
+│   ├── models/                        # Pydantic data models
+│   │   ├── __init__.py                # Package initialization
+│   │   └── schemas.py                 # All Pydantic schemas (QueryAnalysis, PolicyResponse, etc.)
+│   │
+│   ├── callbacks/                     # Monitoring and tracking callbacks
+│   │   ├── __init__.py                # Package initialization
+│   │   ├── execution_tracker.py       # Tracks executed agents and used tools
+│   │   └── monitoring.py              # Comprehensive monitoring callbacks for CrewAI
+│   │
+│   ├── retrieval/                     # RAG infrastructure
+│   │   ├── __init__.py                # Package initialization
+│   │   ├── vector_store.py            # ChromaDB vector store wrapper
+│   │   └── document_processor.py      # Processes PDFs and text files for RAG
+│   │
+│   ├── adk/                           # ADK (Agent Development Kit) integration
+│   │   ├── __init__.py                # Package initialization
+│   │   ├── adk_agent.py               # Google ADK calculator agent implementation
+│   │   └── adk_agent_adapter.py       # Adapter to integrate ADK agents with CrewAI
+│   │
+│   ├── core/                          # Core orchestration logic
+│   │   ├── __init__.py                # Package initialization
+│   │   └── orchestrator.py            # MainOrchestrator class for workflow management
+│   │
+│   └── guardrails/                    # Hallucination guardrails and validation
+│       ├── __init__.py                # Package initialization
+│       ├── guardrail_config.py        # Guardrail configuration settings
+│       └── guardrail_factory.py       # Factory for creating guardrail instances
+│
+├── mcp_servers/                       # MCP (Model Context Protocol) server implementations
+│   ├── __init__.py                    # Package initialization
+│   ├── ollama_websearch_mcp_server.py # Ollama Web Search MCP server (FastMCP)
+│   ├── pdf_extractor_mcp_server.py   # FastMCP PDF extractor using pypdf
+│   └── pdf_mcp_server.py              # Legacy PDF MCP server using PyPDF2
+│
+├── data/                              # Document repository
+│   ├── DATA_INVENTORY.json            # Inventory of all documents in the repository
+│   ├── 00_Archive/                    # Archived documents
+│   ├── 01_Financial_Schemes/           # Financial assistance schemes (PM-KISAN, etc.)
+│   ├── 02_Credit_Loans/               # Credit and loan schemes (KCC, etc.)
+│   ├── 03_Crop_Insurance/             # Crop insurance schemes (PMFBY, RWBCIS)
+│   ├── 04_Seeds_Inputs/               # Seed distribution and input subsidies
+│   ├── 05_Irrigation_Water/           # Irrigation and water management schemes
+│   ├── 06_Soil_Health/                # Soil health and fertilizer management
+│   ├── 07_Farm_Mechanization/         # Farm mechanization schemes
+│   ├── 08_Market_Pricing/             # Market pricing and MSP information
+│   ├── 09_Horticulture_Allied/       # Horticulture and allied activities
+│   ├── 10_Extension_Training/         # Extension services and training programs
+│   ├── 11_Digital_Initiatives/        # Digital agriculture initiatives
+│   ├── 12_Calamity_Relief/            # Natural calamity relief schemes
+│   ├── 13_Crop_Cultivation_Guides/    # Crop-specific cultivation guides
+│   ├── 14_Pest_Disease_Management/    # Pest and disease management guides
+│   ├── 15_Fertilizer_Schedules/      # Fertilizer application schedules
+│   ├── 16_Crop_Calendar/              # Crop sowing calendar for AP
+│   └── 17_Crop_Varieties/             # Recommended crop varieties
+│
+├── web/                               # Web interface
+│   ├── api/                           # Flask REST API backend
+│   │   ├── __init__.py                # Package initialization
+│   │   └── app.py                     # Flask application with REST endpoints
+│   │
+│   ├── react-ui/                      # React frontend application
+│   │   ├── package.json               # Node.js dependencies
+│   │   ├── vite.config.js             # Vite build configuration
+│   │   ├── index.html                 # HTML entry point
+│   │   └── src/                        # React source code
+│   │       ├── main.jsx               # React application entry point
+│   │       ├── App.jsx                # Main App component
+│   │       ├── services/              # API service layer
+│   │       │   └── api.js             # API client for backend communication
+│   │       ├── hooks/                 # React custom hooks
+│   │       │   └── useChat.js         # Chat functionality hook
+│   │       ├── components/            # React components
+│   │       │   ├── PolicyNavigator.jsx        # Main Policy Navigator component
+│   │       │   ├── ChatWindow.jsx             # Chat interface component
+│   │       │   ├── ChatMessage.jsx            # Individual chat message component
+│   │       │   ├── ChatInputBar.jsx           # Chat input component
+│   │       │   ├── ChatHistoryDrawer.jsx      # Chat history sidebar
+│   │       │   ├── Header.jsx                 # Application header
+│   │       │   ├── RightPanel.jsx             # Right sidebar panel
+│   │       │   ├── FloatingContainer.jsx      # Floating UI container
+│   │       │   ├── ProjectMindMap.jsx         # Project mind map visualization
+│   │       │   ├── WorkflowMindMap.jsx        # Workflow diagram visualization
+│   │       │   └── AboutModal.jsx             # About modal dialog
+│   │       └── styles/                # Styling files
+│   │           ├── global.css         # Global CSS styles
+│   │           └── theme.js           # Theme configuration
+│   │
+│   └── static/                        # Static files for simple HTML interface
+│       ├── index.html                 # Simple HTML interface
+│       ├── app.js                     # JavaScript for static interface
+│       └── styles.css                 # CSS for static interface
+│
+├── scripts/                           # Utility scripts
+│   ├── __init__.py                    # Package initialization
+│   ├── initialize_rag.py              # Initializes ChromaDB with documents from data/
+│   └── run_pdf_mcp_server.py          # Standalone script to run PDF MCP server
+│
+├── images/                            # Project images and diagrams
+│   ├── project-mindmap.png            # Project architecture mind map
+│   └── frontend-ui.png                # Frontend UI screenshot
+│
+├── project_requirements/              # Project requirements and documentation
+│   ├── minimum-requirements.txt      # Minimum project requirements checklist
+│   └── Policy Navigator - Multi-Agent System Project Plan.pdf  # Project plan PDF
+│
+├── chroma_db/                         # ChromaDB vector database (auto-generated)
+│   ├── chroma.sqlite3                 # SQLite database file
+│   └── [uuid]/                        # Vector data directories
+│
+└── [other files]                      # Additional project files
+    ├── policy-navigator-report.docx   # Project report (Word)
+    └── policy-navigator-report.pdf    # Project report (PDF)
+```
 
-- **mcp_servers/** - MCP server implementations
-  - **ollama_websearch_mcp_server.py** - Ollama Web Search MCP server
-  - **pdf_extractor_mcp_server.py** - FastMCP PDF extractor (pypdf)
-  - **pdf_mcp_server.py** - Legacy PDF MCP server (PyPDF2)
+### Key File Descriptions
 
-- **data/** - Document repository containing agricultural policy documents, crop guides, and related materials organized by category
+#### Core Application Files
 
-- **web/** - Web interface
-  - **api/** - Flask REST API backend
-  - **react-ui/** - React frontend application
-  - **static/** - Static files for simple HTML interface
+- **`src/policy_navigator/main.py`**: Command-line interface entry point. Handles user queries, PDF uploads, RAG initialization, and displays execution summaries.
 
-- **scripts/** - Utility scripts
-  - **initialize_rag.py** - Script to initialize RAG database with documents
-  - **run_pdf_mcp_server.py** - Script to run PDF MCP server standalone
+- **`src/policy_navigator/crew.py`**: Main crew orchestration file using CrewAI's `@CrewBase` pattern. Defines all 9 agents, their tasks, conditional routing logic, and crew workflow.
 
-- **chroma_db/** - ChromaDB vector database (created after RAG initialization)
+- **`src/policy_navigator/core/orchestrator.py`**: `MainOrchestrator` class that manages the overall workflow execution and coordinates between different components.
+
+#### Configuration Files
+
+- **`src/policy_navigator/config/agents.yaml`**: YAML configuration defining all agent roles, goals, backstories, and capabilities.
+
+- **`src/policy_navigator/config/tasks.yaml`**: YAML configuration defining all task descriptions, expected outputs, and agent assignments.
+
+- **`src/policy_navigator/config/llm_config.py`**: LLM provider configuration (OpenAI, Groq) with fallback logic and model selection.
+
+- **`src/policy_navigator/config/tool_mappings.py`**: Maps agents to their respective tools for dynamic tool assignment.
+
+#### Tools
+
+- **`src/policy_navigator/tools/rag_tool.py`**: CrewAI tool wrapper for ChromaDB semantic search. Used by Policy Researcher, Crop Specialist, and Pest Advisor.
+
+- **`src/policy_navigator/tools/region_detector.py`**: Rule-based tool that detects if queries mention Andhra Pradesh or other regions. Used by Query Analyzer.
+
+- **`src/policy_navigator/tools/ollama_websearch_tool.py`**: Wrapper for Ollama Web Search MCP. Used by Market Analyst and Non-AP Researcher.
+
+- **`src/policy_navigator/tools/pdf_mcp_tool.py`**: Wrapper for PDF MCP server. Used by PDF Processor Agent.
+
+- **`src/policy_navigator/tools/pdf_domain_validator.py`**: Validates that uploaded PDFs contain agricultural content.
+
+#### Data Models
+
+- **`src/policy_navigator/models/schemas.py`**: Contains all Pydantic models for structured outputs:
+  - `QueryAnalysis` - Query analyzer output
+  - `PolicyResponse` - Policy researcher output
+  - `CropGuidance` - Crop specialist output
+  - `PestManagement` - Pest advisor output
+  - `MarketInfo` - Market analyst output
+  - `WebSearchResponse` - Non-AP researcher output
+  - `PDFAnalysis` - PDF processor output
+  - `FinalResponse` - Response synthesizer output
+
+#### Monitoring & Tracking
+
+- **`src/policy_navigator/callbacks/execution_tracker.py`**: Tracks which agents executed, which tools were used, and maintains agent-tool mappings.
+
+- **`src/policy_navigator/callbacks/monitoring.py`**: Comprehensive monitoring callbacks for CrewAI that log step execution, task completion, and agent activities.
+
+#### RAG Infrastructure
+
+- **`src/policy_navigator/retrieval/vector_store.py`**: ChromaDB wrapper for vector storage and semantic search operations.
+
+- **`src/policy_navigator/retrieval/document_processor.py`**: Processes PDF and text files from the `data/` directory, chunks them, and prepares them for vector storage.
+
+#### ADK Integration
+
+- **`src/policy_navigator/adk/adk_agent.py`**: Google ADK calculator agent implementation using Google Generative AI (Gemini).
+
+- **`src/policy_navigator/adk/adk_agent_adapter.py`**: Adapter pattern implementation that wraps ADK agents to work seamlessly with CrewAI agents, enabling A2A communication.
+
+#### Guardrails
+
+- **`src/policy_navigator/guardrails/guardrail_config.py`**: Configuration for hallucination guardrails and content validation.
+
+- **`src/policy_navigator/guardrails/guardrail_factory.py`**: Factory for creating and configuring guardrail instances.
+
+#### MCP Servers
+
+- **`mcp_servers/ollama_websearch_mcp_server.py`**: FastMCP server implementation for Ollama web search API integration.
+
+- **`mcp_servers/pdf_extractor_mcp_server.py`**: FastMCP server for PDF text extraction using pypdf library.
+
+- **`mcp_servers/pdf_mcp_server.py`**: Legacy PDF MCP server implementation using PyPDF2.
+
+#### Web Interface
+
+- **`web/api/app.py`**: Flask REST API backend providing endpoints for query processing, PDF uploads, and system status.
+
+- **`web/react-ui/src/App.jsx`**: Main React application component.
+
+- **`web/react-ui/src/components/PolicyNavigator.jsx`**: Main Policy Navigator React component orchestrating the UI.
+
+- **`web/react-ui/src/components/ChatWindow.jsx`**: Chat interface component for user interactions.
+
+- **`web/react-ui/src/services/api.js`**: API client service for communicating with Flask backend.
+
+#### Scripts
+
+- **`scripts/initialize_rag.py`**: One-time script to process all documents from `data/` directory and populate ChromaDB vector store.
+
+- **`scripts/run_pdf_mcp_server.py`**: Standalone script to run PDF MCP server for testing or external use.
 
 ## Installation
 
